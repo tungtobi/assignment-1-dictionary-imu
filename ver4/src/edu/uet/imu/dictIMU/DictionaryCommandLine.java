@@ -60,7 +60,7 @@ public class DictionaryCommandLine
 		  	switch (c)
 		  	{
 		  		case '1':
-					dictionaryManager.insertFromFile("resources/data/dictionary.txt");
+					dictionaryManager.insertFromFile("out/data/dictionary.txt");
 		  			break;
 		 		case '2':
 					dictionaryCommandline.showAllWords(dictionaryManager.getDictionary().getWords());
@@ -68,7 +68,7 @@ public class DictionaryCommandLine
                 case '3':
                     System.out.print("Nhập từ cần tra: ");
                     String searchWord = scanner.next();
-                    ArrayList<Word> resultWords = dictionarySearcher(searchWord.toLowerCase());
+                    ArrayList<Word> resultWords = DictionarySearcher.searcherForCommandline(searchWord.toLowerCase(), dictionary.getWords());
                     if (resultWords == null)
                         System.out.println("Không tìm thấy từ cần tra");
                     else 
@@ -78,7 +78,7 @@ public class DictionaryCommandLine
                     dictionaryManager.removeFromCommandline();
                     break;
                 case '5':
-                    dictionaryManager.dictionaryExportToFile("resources/data/out.txt");
+                    dictionaryManager.dictionaryExportToFile("out/data/out.txt");
 			}
 			System.out.println("=========================");
 		}
@@ -86,25 +86,6 @@ public class DictionaryCommandLine
 
     }
 
-    public ArrayList<Word> dictionarySearcher(String searchWord)
-    {
-        ArrayList<Word> dict = dictionary.getWords();
-        if (searchWord == null || searchWord == "")
-            return dict;
-        
-        ArrayList<String> index = dictionary.getWordsIndex();
-        ArrayList<Word> res = new ArrayList<Word>();
-
-        for (int i = 0; i < index.size(); i++)
-        {
-            if (index.get(i).toLowerCase().contains(searchWord))
-                res.add(dict.get(i));
-        }
-        
-        return res;
-    }
-
-    
 
 	public static void runCommandline(String[] args)
 	{

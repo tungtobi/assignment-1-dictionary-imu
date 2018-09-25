@@ -59,7 +59,7 @@
             </left>
 
             <center>
-                <TextArea></TextArea>
+                <TextArea fx:id="textArea" editable="false"></TextArea>
             </center>
         </BorderPane>
     </center>

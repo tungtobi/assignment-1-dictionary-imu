@@ -2,6 +2,8 @@ package edu.uet.imu.dictIMU;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Dictionary
 {
@@ -41,6 +43,12 @@ public class Dictionary
     {
         return this.wordsIndex;
     }
+
+    public ObservableList<String> getObservableWordsIndexList()
+	{
+        ObservableList<String> res = FXCollections.observableArrayList(this.wordsIndex);
+        return res;
+	}
 
     public void sortList()
     {
