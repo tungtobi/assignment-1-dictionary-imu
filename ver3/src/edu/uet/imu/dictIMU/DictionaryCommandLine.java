@@ -5,15 +5,25 @@ import java.util.ArrayList;
 
 public class DictionaryCommandLine
 {
-	private DictionaryCommandline dictionaryCommandline;
 	private DictionaryManagement dictionaryManager;
     private Dictionary dictionary;
 
 	public DictionaryCommandLine()
 	{
-		dictionaryCommandline = new DictionaryCommandline();
 		dictionaryManager = new DictionaryManagement();
         dictionary = dictionaryManager.getDictionary();
+	}
+
+	public static void showAllWords(ArrayList<Word> words)
+	{
+		System.out.printf("No    |English           |Vietnamese    %n");
+		
+		int length = words.size();
+
+		for (int i = 0; i < length; i++)
+		{
+			System.out.printf("%-6d|%-18s|%s%n", i + 1, words.get(i).getWordTarget(), words.get(i).getWordExplain());
+		}
 	}
 
 	public void dictionaryBasic()
@@ -34,7 +44,7 @@ public class DictionaryCommandLine
 					dictionaryManager.insertFromCommandline();
 		  			break;
 		 		case '2':
-					dictionaryCommandline.showAllWords(dictionary.getWords());
+					showAllWords(dictionary.getWords());
 					break;
 			}
 			System.out.println("=========================");
@@ -63,7 +73,7 @@ public class DictionaryCommandLine
 					dictionaryManager.insertFromFile("resources/data/dictionary.txt");
 		  			break;
 		 		case '2':
-					dictionaryCommandline.showAllWords(dictionaryManager.getDictionary().getWords());
+					showAllWords(dictionaryManager.getDictionary().getWords());
 					break;
                 case '3':
                     System.out.print("Nhập từ cần tra: ");
@@ -72,7 +82,7 @@ public class DictionaryCommandLine
                     if (resultWords == null)
                         System.out.println("Không tìm thấy từ cần tra");
                     else 
-                        dictionaryCommandline.showAllWords(resultWords);
+                        showAllWords(resultWords);
                     break;
                 case '4':
                     dictionaryManager.removeFromCommandline();
