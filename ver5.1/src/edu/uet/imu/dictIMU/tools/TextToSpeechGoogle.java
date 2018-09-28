@@ -14,11 +14,11 @@ import javazoom.jl.decoder.JavaLayerException;
 
 public class TextToSpeechGoogle
 {
-    public InputStream getAudio(String x, String targetLang) throws IOException
+    public InputStream getAudio(String word, String targetLang) throws IOException
     {
-        if (x == null)
+        if (word == null)
             return null;
-        String url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=" + targetLang + "&client=tw-ob&q=" + URLEncoder.encode(x, "UTF-8");
+        String url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=" + targetLang + "&client=tw-ob&q=" + URLEncoder.encode(word, "UTF-8");
         URL obj = new URL(url);
         HttpURLConnection urlConn = (HttpURLConnection) obj.openConnection();
         urlConn.setRequestProperty("User-Agent", "Mozilla/5.0");

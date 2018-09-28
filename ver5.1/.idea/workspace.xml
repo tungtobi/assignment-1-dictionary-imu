@@ -37,9 +37,9 @@
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#play#0;class#TextToSpeechGoogle#0" />
               </folding>
             </state>
           </provider>
@@ -48,17 +48,23 @@
       <file leaf-file-name="Translator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="113">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="method#parseResult#0;class#Translator#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionarySearcher.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DictionarySearcher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="method#searcherForCommandline#0;class#DictionarySearcher#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionaryCommandLine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DictionaryCommandLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -98,8 +104,11 @@
       <file leaf-file-name="DictionaryApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="method#start#0;class#DictionaryApplication#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +116,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,10 +142,12 @@
         <option value="$PROJECT_DIR$/resources/fxml/sample.fxml" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/DictionaryCommandLine.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java" />
       </list>
     </option>
   </component>
@@ -200,6 +211,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
               <item name="commandLine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ver5.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ver5.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +328,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3324138" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -335,7 +353,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -391,47 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -442,6 +419,56 @@
             <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
             <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
             <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="method#start#0;class#DictionaryApplication#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
+          <folding>
+            <element signature="method#play#0;class#TextToSpeechGoogle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="method#parseResult#0;class#Translator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="method#searcherForCommandline#0;class#DictionarySearcher#0" />
           </folding>
         </state>
       </provider>

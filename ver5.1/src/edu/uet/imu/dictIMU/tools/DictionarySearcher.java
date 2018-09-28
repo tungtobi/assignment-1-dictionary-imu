@@ -7,26 +7,26 @@ import javafx.collections.transformation.FilteredList;
 
 public class DictionarySearcher
 {
-    public static ArrayList<Word> searcherForCommandline(String searchWord, ArrayList<Word> dict)
+    public static ArrayList<Word> searcherForCommandline(String searchWord, ArrayList<Word> words)
     {
         if (searchWord == null || searchWord == "")
-            return dict;
+            return words;
         
         ArrayList<Word> res = new ArrayList<Word>();
 
-        for (int i = 0; i < dict.size(); i++)
+        for (int i = 0; i < words.size(); i++)
         {
-            if (dict.get(i).getWordTarget().toLowerCase().contains(searchWord))
-                res.add(dict.get(i));
+            if (words.get(i).getWordTarget().toLowerCase().contains(searchWord))
+                res.add(words.get(i));
         }
         
         return res;
     }
 
-    public static FilteredList<String> searcherForApplication(String oldVal, String newVal, FilteredList<String> orginal)
+    public static FilteredList<String> searcherForApplication(String oldVal, String newVal, FilteredList<String> word)
 	{
-		orginal.setPredicate(string -> string.toLowerCase().startsWith(newVal));
-		return orginal;
+		word.setPredicate(string -> string.toLowerCase().startsWith(newVal));
+		return word;
 	}
 
 }
