@@ -5,15 +5,25 @@ import java.util.ArrayList;
 
 public class DictionaryCommandLine
 {
-	private DictionaryCommandline dictionaryCommandline;
 	private DictionaryManagement dictionaryManager;
     private Dictionary dictionary;
 
 	public DictionaryCommandLine()
 	{
-		dictionaryCommandline = new DictionaryCommandline();
 		dictionaryManager = new DictionaryManagement();
         dictionary = dictionaryManager.getDictionary();
+	}
+
+	public static void showAllWords(ArrayList<Word> words)
+	{
+		System.out.printf("No    |English           |Vietnamese    %n");
+		
+		int length = words.size();
+
+		for (int i = 0; i < length; i++)
+		{
+			System.out.printf("%-6d|%-18s|%s%n", i + 1, words.get(i).getWordTarget(), words.get(i).getWordExplain());
+		}
 	}
 
 	public void dictionaryBasic()
@@ -22,11 +32,11 @@ public class DictionaryCommandLine
 		char c = ' ';
 		do 
 		{
-			System.out.println("1. Thêm từ mới");
-			System.out.println("2. Hiện tất cả các từ");
-			System.out.println("0. Thoát");
+			System.out.println("1. Add new word");
+			System.out.println("2. Show all words");
+			System.out.println("0. Quit");
 			System.out.println("=========================");
-			System.out.print("Lựa chọn: ");
+			System.out.print("Option: ");
 			c = scanner.next().charAt(0);
 		  	switch (c)
 		  	{
@@ -34,7 +44,7 @@ public class DictionaryCommandLine
 					dictionaryManager.insertFromCommandline();
 		  			break;
 		 		case '2':
-					dictionaryCommandline.showAllWords(dictionary.getWords());
+					showAllWords(dictionary.getWords());
 					break;
 			}
 			System.out.println("=========================");
@@ -48,14 +58,14 @@ public class DictionaryCommandLine
 		char c = ' ';
 		do 
 		{
-			System.out.println("1. Thêm từ mới từ File");
-			System.out.println("2. Hiện tất cả các từ");
-            System.out.println("3. Tìm kiếm từ");
-            System.out.println("4. Xóa từ");
-            System.out.println("5. Xuất từ điển ra file");
-			System.out.println("0. Thoát");
+			System.out.println("1. Add new words from File");
+			System.out.println("2. Show all words");
+            System.out.println("3. Search a word");
+            System.out.println("4. Delete a word");
+            System.out.println("5. Export dictionary to file");
+			System.out.println("0. Quit");
 			System.out.println("=========================");
-			System.out.print("Lựa chọn: ");
+			System.out.print("Option: ");
 			c = scanner.next().charAt(0);
 		  	switch (c)
 		  	{
@@ -63,16 +73,16 @@ public class DictionaryCommandLine
 					dictionaryManager.insertFromFile("out/data/dictionary.txt");
 		  			break;
 		 		case '2':
-					dictionaryCommandline.showAllWords(dictionaryManager.getDictionary().getWords());
+					showAllWords(dictionaryManager.getDictionary().getWords());
 					break;
                 case '3':
-                    System.out.print("Nhập từ cần tra: ");
+                    System.out.print("Enter a word: ");
                     String searchWord = scanner.next();
                     ArrayList<Word> resultWords = DictionarySearcher.searcherForCommandline(searchWord.toLowerCase(), dictionary.getWords());
                     if (resultWords == null)
-                        System.out.println("Không tìm thấy từ cần tra");
+                        System.out.println("Word not found");
                     else 
-                        dictionaryCommandline.showAllWords(resultWords);
+                        showAllWords(resultWords);
                     break;
                 case '4':
                     dictionaryManager.removeFromCommandline();
