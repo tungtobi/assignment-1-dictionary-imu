@@ -26,11 +26,11 @@ public class DictionaryManagement
 		String eng;
 		String vi;
 
-		System.out.print("- Nhập từ tiếng Anh: ");
-		eng = scanner.nextLine();
-		
-		System.out.print("- Nhập giải thích sang tiếng Việt: ");
-		vi = scanner.nextLine();
+		System.out.print("- Enter the English word: ");
+        eng = scanner.nextLine();
+        
+        System.out.print("- Enter the explain word: ");
+        vi = scanner.nextLine();
 
 		Word word = new Word(eng, vi);
 		dictionary.addWord(word);
@@ -42,13 +42,13 @@ public class DictionaryManagement
         {
             Scanner scanner = new Scanner(new File(path));
 
-            System.out.println("Lấy dữ liệu từ file " + path);
+            System.out.println("Get datas from " + path);
             while (scanner.hasNext())
             {
                 String[] line = scanner.nextLine().split("\t", 2);
                 if (line.length < 2)
                 {
-                    System.out.println("Không thê lấy dữ liệu. Lỗi định dạng file!");
+                    System.out.println("Error file's format!");
                     break;
                 }
 
@@ -58,7 +58,7 @@ public class DictionaryManagement
         }
         catch (FileNotFoundException e)
         {
-            System.out.println("Không tìm thấy file " + path);
+            System.out.println("File not found");
         }
     }
 

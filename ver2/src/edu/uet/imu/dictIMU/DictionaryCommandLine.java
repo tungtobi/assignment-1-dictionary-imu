@@ -30,11 +30,11 @@ public class DictionaryCommandLine
 		char c = ' ';
 		do 
 		{
-			System.out.println("1. Thêm từ mới");
-			System.out.println("2. Hiện tất cả các từ");
-			System.out.println("0. Thoát");
+			System.out.println("1. Add new word");
+			System.out.println("2. Show all words");
+			System.out.println("0. Quit");
 			System.out.println("=========================");
-			System.out.print("Lựa chọn: ");
+			System.out.print("Option: ");
 			c = scanner.next().charAt(0);
 		  	switch (c)
 		  	{
@@ -56,12 +56,12 @@ public class DictionaryCommandLine
 		char c = ' ';
 		do 
 		{
-			System.out.println("1. Thêm từ mới từ File");
-			System.out.println("2. Hien tat ca cac tu");
-            System.out.println("3. Tìm kiếm từ");
-			System.out.println("0. Thoát");
+			System.out.println("1. Add new words from File");
+			System.out.println("2. Show all words");
+            System.out.println("3. Search a word");
+			System.out.println("0. Quit");
 			System.out.println("=========================");
-			System.out.print("Lựa chọn: ");
+			System.out.print("Option: ");
 			c = scanner.next().charAt(0);
 		  	switch (c)
 		  	{
@@ -72,7 +72,7 @@ public class DictionaryCommandLine
 					showAllWords(dictionaryManager.getDictionary().getWords());
 					break;
                 case '3':
-                    System.out.print("Nhập từ cần tra: ");
+                    System.out.print("Enter a word: ");
                     String searchWord = scanner.next();
                     ArrayList<Word> resultList = dictionaryManager.dictionaryLookup(searchWord.toLowerCase());
                     showAllWords(resultList);

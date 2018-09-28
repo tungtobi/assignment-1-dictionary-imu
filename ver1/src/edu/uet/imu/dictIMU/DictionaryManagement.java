@@ -23,10 +23,10 @@ public class DictionaryManagement
 		String eng;
 		String vi;
 
-		System.out.print("- Nhập từ tiếng Anh: ");
+		System.out.print("- Enter the English word: ");
 		eng = scanner.nextLine();
 		
-		System.out.print("- Nhập giải thích sang tiếng Việt: ");
+		System.out.print("- Enter the explain word: ");
 		vi = scanner.nextLine();
 
 		Word word = new Word(eng, vi);

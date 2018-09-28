@@ -31,11 +31,11 @@ public class DictionaryCommandLine
 		char c = ' ';
 		do 
 		{
-			System.out.println("1. Them Tu Moi");
-			System.out.println("2. Hien tat ca cac tu");
-			System.out.println("0. Thoat");
+			System.out.println("1. Add new word");
+			System.out.println("2. Show all words");
+			System.out.println("0. Quit");
 			System.out.println("=========================");
-			System.out.print("Lua chon: ");
+			System.out.print("Option: ");
 			c = scanner.next().charAt(0);
 		  	switch (c)
 		  	{
