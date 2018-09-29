@@ -19,6 +19,12 @@ public class Dictionary
 
     public void addWord(Word word)
     {
+        if (word == null)
+            return ;
+
+        word.setWordTarget(word.getWordTarget().toLowerCase());
+        word.setWordExplain(word.getWordExplain().toLowerCase());
+
         if (!wordsIndex.contains(word.getWordTarget()))
         {
             int index = 0;
@@ -34,6 +40,12 @@ public class Dictionary
 
     public void removeWord(Word word)
     {
+        if (word == null)
+            return;
+        
+        word.setWordTarget(word.getWordTarget().toLowerCase());
+        word.setWordExplain(word.getWordExplain().toLowerCase());
+
         if (wordsIndex.contains(word.getWordTarget()))
         {
             words.remove(word);

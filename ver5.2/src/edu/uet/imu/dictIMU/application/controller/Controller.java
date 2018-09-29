@@ -23,8 +23,9 @@ import edu.uet.imu.dictIMU.tools.DictionarySearcher;
 import edu.uet.imu.dictIMU.tools.Translator;
 import edu.uet.imu.dictIMU.tools.TextToSpeechGoogle;
 
-// check AddWordApplication
+// check Edit Word Application
 import edu.uet.imu.dictIMU.application.tools.AddWordApplication;
+import edu.uet.imu.dictIMU.application.tools.RemoveWordApplication;
 //////////////////////////
 
 public class Controller implements Initializable
@@ -140,10 +141,26 @@ public class Controller implements Initializable
 
 
 
-    // Check AddWordApplication
+    // Check Edit Word Application
     public void handleAddWord(ActionEvent actionEvent)
     {
         AddWordApplication app = new AddWordApplication(dictionaryManager);
+        try {
+            app.run();
+
+            System.out.println("Done-------------------");
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+		resultList.setItems(searchList);
+    }
+    
+    public void handleRemoveWord(ActionEvent actionEvent)
+    {
+        RemoveWordApplication app = new RemoveWordApplication(dictionaryManager);
         try {
             app.run();
 

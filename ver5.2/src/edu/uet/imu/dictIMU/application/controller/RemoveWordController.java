@@ -7,22 +7,20 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
+import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.application.tools.AlertWindow;
 
-public class AddWordController
+public class RemoveWordController
 {
     @FXML
     private TextField targetTextField;
-    
-    @FXML
-    private TextField explainTextField;
 
     @FXML
     private Button cancelButton;
 
     private DictionaryManagement dictionaryManager;
 
-    public AddWordController(DictionaryManagement dictionaryManager)
+    public RemoveWordController(DictionaryManagement dictionaryManager)
     {
         this.dictionaryManager = dictionaryManager;
     }
@@ -30,12 +28,16 @@ public class AddWordController
     public void handleApplyButton(ActionEvent actionEvent)
     {
         String wordTarget = targetTextField.getText();
-        String wordExplain = explainTextField.getText();
 
-        if (wordTarget == null || wordExplain == null ||wordTarget.equals("") || wordExplain.equals(""))
+        if (wordTarget == null || wordTarget.equals(""))
+            return ;
+
+        Word word = dictionaryManager.removeWord(wordTarget);
+        
+        if (word == null)
         {
-            AlertWindow alertWindow = new AlertWindow("Cannot add word");
-            try
+            AlertWindow alertWindow = new AlertWindow("Word not found");
+            try 
             {
                 alertWindow.run();
             }
@@ -44,11 +46,8 @@ public class AddWordController
                 System.out.println(e.toString());
             }
         }
-        else
-        {
-            dictionaryManager.addWord(wordTarget, wordExplain);
-            handleCancelButton(actionEvent);
-        }
+        
+        handleCancelButton(actionEvent);
     }
 
     public void handleCancelButton(ActionEvent actionEvent)

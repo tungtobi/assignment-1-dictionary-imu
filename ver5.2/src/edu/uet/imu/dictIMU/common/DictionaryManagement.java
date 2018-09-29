@@ -33,18 +33,15 @@ public class DictionaryManagement
         dictionary.addWord(word);
     }
         
-    public void removeWord(String str)
+    public Word removeWord(String str)
     {
         Word word = dictionaryLookup(str);
-        if (word == null)
-        {
-            System.out.println("Word not found!");
-            return;
-        }
-        else
+        if (word != null) 
         {
             dictionary.removeWord(word);
         }
+
+        return word;
 
     }
 
@@ -60,8 +57,8 @@ public class DictionaryManagement
         
         System.out.print("- Enter the explain word: ");
 		vi = scanner.nextLine();
-
-		addWord(eng, vi); 
+        addWord(eng, vi); 
+       
 	}
 
     public void removeFromCommandline()
@@ -71,7 +68,12 @@ public class DictionaryManagement
         System.out.print("Enter the English word to remove: ");
         String str = scanner.nextLine();
         
-        removeWord(str);
+        Word word = removeWord(str); 
+        
+        if (word == null)
+        {
+            System.out.println("Word not found!");
+        }
     }
 
     public void insertFromFile(String path) 

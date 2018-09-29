@@ -6,9 +6,10 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label text="Add new word" textAlignment="CENTER">
+      <Label text="Remove word" textAlignment="CENTER">
          <font>
             <Font size="33.0" />
          </font>
@@ -21,19 +22,9 @@
             <Insets bottom="7.0" />
          </VBox.margin>
       </Label>
-      <TextField fx:id="targetTextField" maxWidth="200.0" minWidth="200.0" onAction="#handleApplyButton" promptText="Target Word">
+      <TextField fx:id="targetTextField" maxWidth="200.0" minWidth="200.0" promptText="Target Word" onAction="#handleApplyButton">
          <VBox.margin>
             <Insets bottom="20.0" />
-         </VBox.margin>
-      </TextField>
-      <Label text="Explain Word">
-         <VBox.margin>
-            <Insets bottom="7.0" />
-         </VBox.margin>
-      </Label>
-      <TextField fx:id="explainTextField" maxWidth="200.0" minWidth="200.0" onAction="#handleApplyButton" promptText="Explain Word">
-         <VBox.margin>
-            <Insets bottom="10.0" />
          </VBox.margin>
       </TextField>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">

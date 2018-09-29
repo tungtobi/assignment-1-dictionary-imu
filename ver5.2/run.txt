@@ -1,12 +1,10 @@
 Windows:
     - Compile:
-        javac -d out/production/ver5.2 -cp jl1.0.jar;org.json.jar src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/application/*.java src/edu/uet/imu/dictIMU/application/controller/*.java src/edu/uet/imu/dictIMU/commandLine/*.java src/edu/uet/imu/dictIMU/common/*.java src/edu/uet/imu/dictIMU/tools/*.java src/edu/uet/imu/dictIMU/application/tools/*.java
-    - Run
-		java -cp out/production/ver5.2;jl1.0.jar;org.json.jar edu.uet.imu.dictIMU.Main
-
+        javac -d out -cp org.json.jar;src src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/controller/*.java
+    - Run:
+        java -cp org.json.jar;out edu.uet.imu.dictIMU.Main
 Unix:
     - Compile:
-        javac -d out/production/ver5.2 -cp jl1.0.jar:org.json.jar src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/application/*.java src/edu/uet/imu/dictIMU/application/controller/*.java src/edu/uet/imu/dictIMU/commandLine/*.java src/edu/uet/imu/dictIMU/common/*.java src/edu/uet/imu/dictIMU/tools/*.java src/edu/uet/imu/dictIMU/application/tools/*.java
-    - Run 
-		java -cp out/production/ver5.2:jl1.0.jar:org.json.jar edu.uet.imu.dictIMU.Main
-
+        javac -d out -cp org.json.jar:src src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/controller/*.java
+    - Run:
+        java -cp org.json.jar:out edu.uet.imu.dictIMU.Main

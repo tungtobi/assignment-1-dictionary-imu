@@ -22,6 +22,7 @@ public class DictionaryCommandLine
 	public static void showAllWords(ArrayList<Word> words)
 	{
 		System.out.printf("No    |English           |Vietnamese    %n");
+        System.out.println("----------------------------------------");
 		
 		int length = words.size();
 
