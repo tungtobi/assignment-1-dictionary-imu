@@ -16,6 +16,7 @@ import java.util.logging.Level;
 import java.io.InputStream;
 import java.io.IOException;
 
+import javafx.scene.text.Text;
 import javazoom.jl.decoder.JavaLayerException;
 
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
@@ -40,10 +41,10 @@ public class Controller implements Initializable
 	private ListView<String> resultList;
 
     @FXML
-    private TextArea textArea;
+    private Text textExplain;
 
     @FXML
-    private TextArea logArea;
+    private Text textTarget;
 
 	private FilteredList<String> searchList;
 
@@ -68,11 +69,12 @@ public class Controller implements Initializable
             System.out.println(searchList.toString());
             ////////
             
-            textArea.setText("Searching from Web....");
+            textExplain.setText("Searching from Web....");
             Translator translator = new Translator();
             try 
             {
-                textArea.setText(translator.callUrlAndParseResult("en", "vi", searchField.getText()));
+                textTarget.setText(searchText);
+                textExplain.setText(translator.callUrlAndParseResult("en", "vi", searchField.getText()));
             }
             catch (Exception ex)
             {
@@ -132,16 +134,12 @@ public class Controller implements Initializable
         resultList.getSelectionModel().selectedItemProperty().addListener((observable, oldVal, newVal) -> {
             if (newVal != null)
             {
-                textArea.setText(dictionaryManager.dictionaryLookup(newVal).getWordExplain());
+                textTarget.setText(newVal);
+                textExplain.setText(dictionaryManager.dictionaryLookup(newVal).getWordExplain());
             }
         });
-
-        logArea.setText("Press \"Enter\" to Search From Web");
 	}
-
-
-
-
+	
 
     // Check Edit Word Application
     public void handleAddWord(ActionEvent actionEvent)
