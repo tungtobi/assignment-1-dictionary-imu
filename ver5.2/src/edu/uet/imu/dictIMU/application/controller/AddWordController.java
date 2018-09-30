@@ -2,9 +2,13 @@ package edu.uet.imu.dictIMU.application.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.application.tools.AlertWindow;

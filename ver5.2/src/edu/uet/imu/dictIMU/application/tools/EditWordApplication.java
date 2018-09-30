@@ -10,30 +10,23 @@ import javafx.stage.Modality;
 
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.common.Word;
-import edu.uet.imu.dictIMU.application.controller.RemoveWordController;
+import edu.uet.imu.dictIMU.application.controller.EditWordController;
 
-public class RemoveWordApplication  
+public class EditWordApplication  
 {
     private DictionaryManagement dictionaryManager;
-    private String word;
+    private Word oldWord;
 
-    public RemoveWordApplication()
+    public EditWordApplication()
     {
         dictionaryManager = null;
-        word = null;
+        oldWord = null;
     }
 
-    public RemoveWordApplication(DictionaryManagement dictionaryManager)
+    public EditWordApplication(DictionaryManagement dictionaryManager, Word word)
     {
         this.dictionaryManager = dictionaryManager;
-        this.word = null;
-    }
-
-
-    public RemoveWordApplication(DictionaryManagement dictionaryManager, String word)
-    {
-        this.dictionaryManager = dictionaryManager;
-        this.word = word;
+        this.oldWord = word;
     }
 
     public void setDictionaryManagement(DictionaryManagement dictionaryManager)
@@ -41,23 +34,22 @@ public class RemoveWordApplication
         this.dictionaryManager = dictionaryManager;
     }
 
-    public void setWord(String word)
+    public void setWord(Word word)
     {
-        this.word = word;
+        this.oldWord = word;
     }
-
 
     public void run() throws Exception
     {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/RemoveWordApplication.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/EditWordApplication.fxml"));
 
-        RemoveWordController controller = new RemoveWordController(dictionaryManager, word);
+        EditWordController controller = new EditWordController(dictionaryManager, oldWord);
 
         loader.setController(controller);
 
         Parent root = loader.load();
         Stage stage = new Stage();
-		stage.setTitle("Remove word");
+		stage.setTitle("Edit word");
 		stage.setScene(new Scene(root, 400, 400));
         stage.initModality(Modality.APPLICATION_MODAL);
 		stage.showAndWait();

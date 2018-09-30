@@ -19,6 +19,7 @@ import java.io.IOException;
 import javazoom.jl.decoder.JavaLayerException;
 
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
+import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.tools.DictionarySearcher;
 import edu.uet.imu.dictIMU.tools.Translator;
 import edu.uet.imu.dictIMU.tools.TextToSpeechGoogle;
@@ -26,6 +27,7 @@ import edu.uet.imu.dictIMU.tools.TextToSpeechGoogle;
 // check Edit Word Application
 import edu.uet.imu.dictIMU.application.tools.AddWordApplication;
 import edu.uet.imu.dictIMU.application.tools.RemoveWordApplication;
+import edu.uet.imu.dictIMU.application.tools.EditWordApplication;
 //////////////////////////
 
 public class Controller implements Initializable
@@ -145,7 +147,8 @@ public class Controller implements Initializable
     public void handleAddWord(ActionEvent actionEvent)
     {
         AddWordApplication app = new AddWordApplication(dictionaryManager);
-        try {
+        try
+        {
             app.run();
 
             System.out.println("Done-------------------");
@@ -160,8 +163,10 @@ public class Controller implements Initializable
     
     public void handleRemoveWord(ActionEvent actionEvent)
     {
-        RemoveWordApplication app = new RemoveWordApplication(dictionaryManager);
-        try {
+        String word = resultList.getSelectionModel().getSelectedItem();
+        RemoveWordApplication app = new RemoveWordApplication(dictionaryManager, word);
+        try
+        {
             app.run();
 
             System.out.println("Done-------------------");
@@ -169,9 +174,32 @@ public class Controller implements Initializable
         catch (Exception e)
         {
             System.out.println(e.toString());
+
         }
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
 		resultList.setItems(searchList);
+    }
+    
+    public void handleEditWord(ActionEvent actionEvent)
+    {
+        
+        Word word = dictionaryManager.dictionaryLookup(resultList.getSelectionModel().getSelectedItem());
+        if (word != null)
+        {
+            EditWordApplication app = new EditWordApplication(dictionaryManager, word);
+            try
+            {
+                app.run();
+
+                System.out.println("Done-------------------");
+            }
+            catch (Exception e)
+            {
+                System.out.println(e.toString());
+            }
+            searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+		    resultList.setItems(searchList);
+        }
     }
     //////////////////////////////
 
