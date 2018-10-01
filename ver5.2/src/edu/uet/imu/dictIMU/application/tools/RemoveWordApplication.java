@@ -60,6 +60,7 @@ public class RemoveWordApplication
 		stage.setTitle("Remove word");
 		stage.setScene(new Scene(root, 400, 400));
         stage.initModality(Modality.APPLICATION_MODAL);
+        stage.setResizable(false);
 		stage.showAndWait();
     }
 

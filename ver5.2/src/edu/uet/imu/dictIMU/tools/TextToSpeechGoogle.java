@@ -16,7 +16,7 @@ public class TextToSpeechGoogle
 {
     public InputStream getAudio(String word, String targetLang) throws IOException
     {
-        if (word == null)
+        if (word == null || word.equals(""))
             return null;
         String url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=" + targetLang + "&client=tw-ob&q=" + URLEncoder.encode(word, "UTF-8");
         URL obj = new URL(url);

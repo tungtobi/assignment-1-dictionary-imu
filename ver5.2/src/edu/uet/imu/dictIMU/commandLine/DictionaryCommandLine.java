@@ -65,10 +65,11 @@ public class DictionaryCommandLine
 		do 
 		{
 			System.out.println("1. Add new words from File");
-			System.out.println("2. Show all words");
-            System.out.println("3. Search a word");
-            System.out.println("4. Delete a word");
-            System.out.println("5. Export dictionary to file");
+            System.out.println("2. Add a word");
+			System.out.println("3. Show all words");
+            System.out.println("4. Search a word");
+            System.out.println("5. Delete a word");
+            System.out.println("6. Export dictionary to file");
 			System.out.println("0. Quit");
 			System.out.println("=========================");
 			System.out.print("Option: ");
@@ -78,10 +79,14 @@ public class DictionaryCommandLine
 		  		case '1':
 					dictionaryManager.insertFromFile("resources/data/dictionary.txt");
 		  			break;
-		 		case '2':
+                case '2':
+                    dictionaryManager.insertFromCommandline();
+		  			break;
+
+		 		case '3':
 					showAllWords(dictionaryManager.getDictionary().getWords());
 					break;
-                case '3':
+                case '4':
                     System.out.print("Enter a word: ");
                     String searchWord = scanner.next();
                     ArrayList<Word> resultWords = DictionarySearcher.searcherForCommandline(searchWord.toLowerCase(), dictionary.getWords());
@@ -90,11 +95,11 @@ public class DictionaryCommandLine
                     else 
                         showAllWords(resultWords);
                     break;
-                case '4':
+                case '5':
                     dictionaryManager.removeFromCommandline();
                     break;
-                case '5':
-                    dictionaryManager.dictionaryExportToFile("out/data/out.txt");
+                case '6':
+                    dictionaryManager.dictionaryExportToFile("resources/data/out.txt");
 			}
 			System.out.println("=========================");
 		}

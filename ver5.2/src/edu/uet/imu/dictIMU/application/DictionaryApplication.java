@@ -19,6 +19,7 @@ public class DictionaryApplication extends Application
 		Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
 		primaryStage.setTitle("Dictionary");
 		primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.setResizable(false);
 		primaryStage.show();
 
         primaryStage.setOnCloseRequest(e -> Platform.exit());

@@ -42,6 +42,7 @@ public class AlertWindow
 		stage.setTitle("Alert");
 		stage.setScene(new Scene(root, 400, 200));
         stage.initModality(Modality.APPLICATION_MODAL);
+        stage.setResizable(false);
 		stage.showAndWait();
     }
 
