@@ -14,8 +14,11 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+            <state relative-caret-position="371">
+              <caret line="192" column="13" lean-forward="true" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -23,8 +26,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/ver5.1/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="481" selection-start-line="119" selection-start-column="481" selection-end-line="119" selection-end-column="481" />
             </state>
           </provider>
         </entry>
@@ -32,8 +35,8 @@
       <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/fxml/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="38" column="117" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="117" />
+            <state relative-caret-position="544">
+              <caret line="32" column="129" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="129" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -51,72 +54,57 @@
       <file leaf-file-name="TextToSpeechGoogle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
-              <folding>
-                <element signature="method#play#0;class#TextToSpeechGoogle#0" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Translator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
+      <file leaf-file-name="AddWordApplication.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fxml/AddWordApplication.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="method#parseResult#0;class#Translator#0" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="DictionarySearcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
+      <file leaf-file-name="AlertWindow.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fxml/AlertWindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="method#searcherForCommandline#0;class#DictionarySearcher#0" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="DictionaryCommandLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java">
+      <file leaf-file-name="EditWordApplication.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fxml/EditWordApplication.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#DictionaryCommandLine#0;class#DictionaryCommandLine#0" />
-                <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
-                <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
-                <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="DictionaryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
+      <file leaf-file-name="RemoveWordApplication.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fxml/RemoveWordApplication.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1734">
+              <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -127,6 +115,10 @@
     <findStrings>
       <find>logArea</find>
       <find>handleSearch</find>
+      <find>searchButton</find>
+      <find>resultList</find>
+      <find>h1</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -142,8 +134,13 @@
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" />
         <option value="$PROJECT_DIR$/out/production/ver5.1/css/main.css" />
-        <option value="$PROJECT_DIR$/resources/fxml/main.fxml" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/resources/fxml/main.fxml" />
+        <option value="$PROJECT_DIR$/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/resources/fxml/AddWordApplication.fxml" />
+        <option value="$PROJECT_DIR$/resources/fxml/AlertWindow.fxml" />
+        <option value="$PROJECT_DIR$/resources/fxml/EditWordApplication.fxml" />
+        <option value="$PROJECT_DIR$/resources/fxml/RemoveWordApplication.fxml" />
       </list>
     </option>
   </component>
@@ -157,8 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,39 +164,31 @@
             <path>
               <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="ver5.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="ver5.1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +221,13 @@
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="commandLine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ver5.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -242,6 +235,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,23 +335,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3324138" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15172414" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,6 +370,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -393,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
-          <folding>
-            <element signature="method#play#0;class#TextToSpeechGoogle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="method#insertFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#removeFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#insertFromFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryExportToFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryLookup#0;class#DictionaryManagement#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DictionaryCommandLine#0;class#DictionaryCommandLine#0" />
-            <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
-          <folding>
-            <element signature="method#play#0;class#TextToSpeechGoogle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,13 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="method#insertFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#removeFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#insertFromFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryExportToFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryLookup#0;class#DictionaryManagement#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,13 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DictionaryCommandLine#0;class#DictionaryCommandLine#0" />
-            <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,9 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
-          <folding>
-            <element signature="method#play#0;class#TextToSpeechGoogle#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="method#insertFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#removeFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#insertFromFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryExportToFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryLookup#0;class#DictionaryManagement#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DictionaryCommandLine#0;class#DictionaryCommandLine#0" />
-            <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,11 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/fxml/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,27 +635,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="method#insertFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#removeFromCommandline#0;class#DictionaryManagement#0" />
-            <element signature="method#insertFromFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryExportToFile#0;class#DictionaryManagement#0" />
-            <element signature="method#dictionaryLookup#0;class#DictionaryManagement#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DictionaryCommandLine#0;class#DictionaryCommandLine#0" />
-            <element signature="method#showAllWords#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryBasic#0;class#DictionaryCommandLine#0" />
-            <element signature="method#dictionaryAdvenced#0;class#DictionaryCommandLine#0" />
-          </folding>
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
@@ -709,16 +651,6 @@
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="25" selection-start-line="21" selection-end-line="22" />
-          <folding>
-            <element signature="method#play#0;class#TextToSpeechGoogle#0" />
           </folding>
         </state>
       </provider>
@@ -736,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="method#searcherForCommandline#0;class#DictionarySearcher#0" />
           </folding>
@@ -750,6 +682,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ver5.1/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="481" selection-start-line="119" selection-start-column="481" selection-end-line="119" selection-end-column="481" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AlertController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -757,25 +703,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/ver5.1/css/main.css">
+    <entry file="file://$PROJECT_DIR$/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        <state relative-caret-position="1734">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/fxml/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="117" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="117" />
+        <state relative-caret-position="544">
+          <caret line="32" column="129" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="129" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/AddWordApplication.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/AlertWindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/EditWordApplication.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/RemoveWordApplication.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        <state relative-caret-position="371">
+          <caret line="192" column="13" lean-forward="true" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

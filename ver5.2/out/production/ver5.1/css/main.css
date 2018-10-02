@@ -6,6 +6,18 @@
     -fx-background-size: stretch;
 }
 
+.h1 {
+    -fx-font-size: 28px;
+}
+
+.h2 {
+    -fx-font-size: 18px;
+}
+
+.p {
+    -fx-font-size: 16px;
+}
+
 .topPane {
     -fx-background-color: teal;
     -fx-padding: 10px;
@@ -64,24 +76,38 @@
 	-fx-background-color: none;
 }
 
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #9900CC;
+    -fx-opacity: .3;
+    -fx-text-fill: white;
+}
+
 #searchField {
     -fx-min-width: 248px;
     -fx-max-width: 248px;
-    -fx-border-width: 1px;
-    -fx-border-color: #9900CC;
-    -fx-background-color: white;
 }
 
-#searchButton {
+.button {
     -fx-background-color: #9900CC;
-    -fx-text-color: white;
+    -fx-text-fill: white;
     -fx-background-radius: 0px;
     -fx-border-radius: 0px;
-    -fx-opacity: .9;
+    -fx-opacity: .8;
 }
 
-#searchButton:hover {
+.button:hover {
     -fx-opacity: 1;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #cfcfcf;
+
+}
+
+.text-field:focused {
+    -fx-border-color: #9900CC;
 }
 
 #resultList {

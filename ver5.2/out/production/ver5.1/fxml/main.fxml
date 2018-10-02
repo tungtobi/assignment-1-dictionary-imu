@@ -36,11 +36,11 @@
             <children>
                 <HBox prefHeight="16.0" prefWidth="292.0">
                     <children>
-                        <TextField fx:id="searchField" maxHeight="42.0" minHeight="42.0" onAction="#handleSearchField" prefHeight="42.0" prefWidth="248.0" promptText="Nhập từ khóa">
+                        <TextField fx:id="searchField" maxHeight="42.0" minHeight="42.0" onAction="#handleSearchField" prefHeight="42.0" prefWidth="248.0" promptText="Nhập từ khóa" styleClass="p">
                             <font>
                                 <Font name="System Italic" size="16.0" />
                             </font></TextField>
-                        <Button fx:id="searchButton" mnemonicParsing="false" onAction="#handleSearch" prefHeight="62.0" prefWidth="55.0" text="&gt;&gt;">
+                        <Button fx:id="searchButton" mnemonicParsing="false" onAction="#handleSearch" prefHeight="62.0" prefWidth="55.0" styleClass="p" text="&gt;&gt;">
                             <HBox.margin>
                                 <Insets left="10.0" />
                             </HBox.margin>
@@ -50,7 +50,7 @@
                         <Insets />
                     </VBox.margin>
                 </HBox>
-                <ListView fx:id="resultList" prefHeight="397.0" prefWidth="309.0">
+                <ListView fx:id="resultList" prefHeight="397.0" prefWidth="309.0" styleClass="p">
                     <VBox.margin>
                         <Insets top="10.0" />
                     </VBox.margin></ListView>
@@ -63,11 +63,11 @@
     <center>
         <VBox prefHeight="458.0" prefWidth="479.0" BorderPane.alignment="CENTER">
             <children>
-                <AnchorPane prefHeight="0.0" prefWidth="480.0">
+                <AnchorPane prefHeight="0.0" prefWidth="480.0" style="-fx-background-color: #fff;">
                     <children>
-                        <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="471.0" style="-fx-background-color: #fff;">
+                        <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="471.0">
                             <children>
-                                <Text fx:id="textTarget" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                <Text fx:id="textTarget" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h1" text="Text">
                                     <HBox.margin>
                                         <Insets left="10.0" />
                                     </HBox.margin>
@@ -83,12 +83,12 @@
                         <Insets />
                     </VBox.margin>
                 </AnchorPane>
-                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+                <HBox prefHeight="397.0" prefWidth="471.0" style="-fx-background-color: #fff;">
                     <VBox.margin>
                         <Insets top="10.0" />
                     </VBox.margin>
                     <children>
-                        <Text fx:id="textExplain" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                        <Text fx:id="textExplain" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h2" text="Text">
                             <font>
                                 <Font size="18.0" />
                             </font>
@@ -107,27 +107,33 @@
     <top>
         <ToolBar prefHeight="132.0" prefWidth="800.0" style="-fx-background-color: #9900CC;" BorderPane.alignment="CENTER">
             <items>
-                <SVGPath />
-                <VBox prefHeight="54.0" prefWidth="81.0">
-                    <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionary IMU">
-                            <font>
-                                <Font name="Arial Bold" size="28.0" />
-                            </font>
-                        </Text>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Đơn giản - dễ dàng - thuận tiện">
-                            <font>
-                                <Font name="Arial Italic" size="18.0" />
-                            </font>
-                            <VBox.margin>
-                                <Insets top="5.0" />
-                            </VBox.margin>
-                        </Text>
-                    </children>
-                    <padding>
-                        <Insets left="10.0" top="25.0" />
-                    </padding>
-                </VBox>
+            <AnchorPane prefHeight="118.0" prefWidth="616.0">
+               <children>
+                      <VBox prefHeight="54.0" prefWidth="81.0">
+                          <children>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h1" text="Dictionary IMU">
+                                  <font>
+                                      <Font name="Arial Bold" size="28.0" />
+                                  </font>
+                              </Text>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h2" text="Đơn giản - dễ dàng - thuận tiện">
+                                  <font>
+                                      <Font name="Arial Italic" size="18.0" />
+                                  </font>
+                                  <VBox.margin>
+                                      <Insets top="5.0" />
+                                  </VBox.margin>
+                              </Text>
+                          </children>
+                          <padding>
+                              <Insets left="10.0" top="25.0" />
+                          </padding>
+                      </VBox>
+               </children>
+            </AnchorPane>
+            <Button mnemonicParsing="false" onAction="#handleAddWord" text="Thêm" />
+            <Button mnemonicParsing="false" onAction="#handleEditWord" text="Sửa" />
+            <Button mnemonicParsing="false" onAction="#handleRemoveWord" text="Xóa" />
             </items>
         </ToolBar>
     </top>
