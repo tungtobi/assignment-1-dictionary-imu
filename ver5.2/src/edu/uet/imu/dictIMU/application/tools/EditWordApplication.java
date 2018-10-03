@@ -11,6 +11,7 @@ import javafx.stage.Modality;
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.application.controller.EditWordController;
+import javafx.stage.StageStyle;
 
 public class EditWordApplication  
 {
@@ -49,8 +50,8 @@ public class EditWordApplication
 
         Parent root = loader.load();
         Stage stage = new Stage();
-		stage.setTitle("Edit word");
-		stage.setScene(new Scene(root, 400, 400));
+        stage.setTitle("Edit word");
+		stage.setScene(new Scene(root, 300, 300));
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setResizable(false);
 		stage.showAndWait();

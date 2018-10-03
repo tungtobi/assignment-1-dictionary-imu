@@ -176,6 +176,13 @@ public class Controller implements Initializable
         }
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
 		resultList.setItems(searchList);
+
+		clearContent();
+    }
+
+    public void clearContent() {
+        this.textExplain.setText("");
+        this.textTarget.setText("");
     }
     
     public void handleEditWord(ActionEvent actionEvent)

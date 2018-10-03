@@ -43,7 +43,7 @@ public class AddWordApplication
         Parent root = loader.load();
         Stage stage = new Stage();
 		stage.setTitle("Add new word");
-		stage.setScene(new Scene(root, 400, 400));
+		stage.setScene(new Scene(root, 300, 300));
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setResizable(false);
 		stage.showAndWait();

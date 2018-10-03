@@ -3,7 +3,9 @@ package edu.uet.imu.dictIMU.application.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
@@ -17,13 +19,14 @@ import edu.uet.imu.dictIMU.application.tools.AlertWindow;
 public class RemoveWordController implements Initializable
 {
     @FXML
-    private TextField targetTextField;
+    private Label textTitle;
 
     @FXML
     private Button cancelButton;
 
     private DictionaryManagement dictionaryManager;
     private String word;
+    private Controller controller;
 
     public RemoveWordController(DictionaryManagement dictionaryManager, String word)
     {
@@ -33,13 +36,13 @@ public class RemoveWordController implements Initializable
 
     public void handleApplyButton(ActionEvent actionEvent)
     {
-        String wordTarget = targetTextField.getText();
+        String wordTarget = word;
 
         if (wordTarget == null || wordTarget.equals(""))
             return ;
 
         Word word = dictionaryManager.removeWord(wordTarget);
-        
+
         if (word == null)
         {
             AlertWindow alertWindow = new AlertWindow("Word not found");
@@ -65,8 +68,6 @@ public class RemoveWordController implements Initializable
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
-        if (word != null && word != "")
-            targetTextField.setText(word);
-
+        textTitle.setText("Xóa từ '" + word + "'?");
     }
 }

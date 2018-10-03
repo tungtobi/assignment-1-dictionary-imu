@@ -6,17 +6,17 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="400.0" stylesheets="/css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" stylesheets="/css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label styleClass="h1" text="Thêm từ mới" textAlignment="CENTER">
          <font>
             <Font size="33.0" />
          </font>
          <VBox.margin>
-            <Insets bottom="20.0" top="20.0" />
+            <Insets bottom="30.0" top="10.0" />
          </VBox.margin>
       </Label>
-      <TextField fx:id="targetTextField" maxWidth="200.0" minWidth="200.0" onAction="#handleApplyButton" promptText="Nghĩa Tiếng Anh">
+      <TextField fx:id="targetTextField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Nghĩa Tiếng Anh">
          <VBox.margin>
             <Insets bottom="20.0" />
          </VBox.margin>
@@ -24,7 +24,7 @@
             <Font name="System Italic" size="16.0" />
          </font>
       </TextField>
-      <TextField fx:id="explainTextField" maxWidth="200.0" minWidth="200.0" onAction="#handleApplyButton" promptText="Nghĩa Tiếng Việt">
+      <TextField fx:id="explainTextField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Nghĩa Tiếng Việt">
          <VBox.margin>
             <Insets bottom="10.0" />
          </VBox.margin>
@@ -32,19 +32,22 @@
             <Font name="System Italic" size="16.0" />
          </font>
       </TextField>
-      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="200.0">
+      <HBox alignment="CENTER" prefHeight="67.0" prefWidth="300.0">
          <children>
-            <Button fx:id="applyButton" maxWidth="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#handleApplyButton" text="OK" textAlignment="CENTER">
+            <Button fx:id="applyButton" maxWidth="-Infinity" minWidth="70.0" mnemonicParsing="false" onAction="#handleApplyButton" prefWidth="120.0" styleClass="button-primary" text="OK" textAlignment="CENTER">
                <HBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="cancelButton" maxWidth="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#handleCancelButton" text="Hủy" textAlignment="CENTER">
+            <Button fx:id="cancelButton" maxWidth="-Infinity" minWidth="70.0" mnemonicParsing="false" onAction="#handleCancelButton" prefWidth="120.0" text="Hủy" textAlignment="CENTER">
                <HBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </HBox.margin>
             </Button>
          </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
       </HBox>
    </children>
 </VBox>

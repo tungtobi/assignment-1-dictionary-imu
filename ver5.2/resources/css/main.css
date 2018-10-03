@@ -6,6 +6,10 @@
     -fx-background-size: stretch;
 }
 
+.text .label {
+    -fx-text-fill: #666666;
+}
+
 .h1 {
     -fx-font-size: 28px;
 }
@@ -88,16 +92,29 @@
 }
 
 .button {
-    -fx-background-color: #9900CC;
-    -fx-text-fill: white;
+    -fx-background-color: #F6F6F6;
+    -fx-border-width: 1px;
+    -fx-border-color: #cfcfcf;
+    -fx-font-size: 16px;
+    -fx-text-fill: #666666;
     -fx-background-radius: 0px;
     -fx-border-radius: 0px;
     -fx-opacity: .8;
+    -fx-min-height: 42px;
+
 }
 
 .button:hover {
     -fx-opacity: 1;
 }
+
+.button-primary {
+    -fx-background-color: #9900CC;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+}
+
+
 
 .text-field {
     -fx-background-color: white;
@@ -116,6 +133,7 @@
 }
 
 #speakerButton {
+    -fx-min-height: 22px;
     -fx-background-color: #9900CC;
     -fx-shape: "M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z";
 }
