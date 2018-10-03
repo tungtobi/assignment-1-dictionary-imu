@@ -4,8 +4,9 @@ Họ tên: Đỗ Hồng Phong
 MSSV: 17020951
 Email: phong987phong@gmail.com
 
-Họ và tên: Nguyễn Tùng Lâm
+Họ tên: Nguyễn Tùng Lâm
 MSSV: 17020845
 Email: tungtobi@gmail.com
 
-JavaFX - v3
+# Quản lý tiến độ
+https://trello.com/b/CLN9C9ba
