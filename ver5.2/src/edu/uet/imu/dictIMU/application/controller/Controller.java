@@ -16,6 +16,7 @@ import java.util.logging.Level;
 import java.io.InputStream;
 import java.io.IOException;
 
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javazoom.jl.decoder.JavaLayerException;
 
@@ -33,6 +34,8 @@ import edu.uet.imu.dictIMU.application.tools.EditWordApplication;
 
 public class Controller implements Initializable
 {
+    @FXML
+    private VBox textArea;
 
     @FXML
 	private TextField searchField;
@@ -56,6 +59,8 @@ public class Controller implements Initializable
         dictionaryManager.insertFromFile("resources/data/dictionary.txt");
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
 	}
+
+
 
 	public void handleSearch(ActionEvent actionEvent)
 	{
@@ -124,6 +129,8 @@ public class Controller implements Initializable
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle)
 	{
+	    clearContent();
+
 		resultList.setItems(searchList);
 
 		searchField.textProperty().addListener((observable, oldVal, newVal) ->  {
@@ -136,6 +143,7 @@ public class Controller implements Initializable
             {
                 textTarget.setText(newVal);
                 textExplain.setText(dictionaryManager.dictionaryLookup(newVal).getWordExplain());
+                textArea.setVisible(true);
             }
         });
 	}
@@ -181,8 +189,7 @@ public class Controller implements Initializable
     }
 
     public void clearContent() {
-        this.textExplain.setText("");
-        this.textTarget.setText("");
+        textArea.setVisible(false);
     }
     
     public void handleEditWord(ActionEvent actionEvent)
