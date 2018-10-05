@@ -127,6 +127,12 @@
     -fx-border-color: #9900CC;
 }
 
+.text-explain {
+    -fx-border-width: 2px 0px 0px 0px;
+    -fx-border-opacity: 0.7;
+    -fx-border-color: #9900CC;
+}
+
 #resultList {
     -fx-text-color: gray;
     -fx-font-size: 16px;
