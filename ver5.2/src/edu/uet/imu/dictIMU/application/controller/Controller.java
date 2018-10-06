@@ -3,9 +3,9 @@ package edu.uet.imu.dictIMU.application.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
 import javafx.collections.transformation.FilteredList;
 
 import java.io.FileNotFoundException;
@@ -16,6 +16,8 @@ import java.util.logging.Level;
 import java.io.InputStream;
 import java.io.IOException;
 
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javazoom.jl.decoder.JavaLayerException;
 
@@ -33,6 +35,14 @@ import edu.uet.imu.dictIMU.application.tools.EditWordApplication;
 
 public class Controller implements Initializable
 {
+    @FXML
+    private VBox textArea;
+
+    @FXML
+    private VBox imgDashboard;
+
+    @FXML
+    private Button btnRemove, btnEdit;
 
     @FXML
 	private TextField searchField;
@@ -56,6 +66,8 @@ public class Controller implements Initializable
         dictionaryManager.insertFromFile("resources/data/dictionary.txt");
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
 	}
+
+
 
 	public void handleSearch(ActionEvent actionEvent)
 	{
@@ -124,6 +136,8 @@ public class Controller implements Initializable
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle)
 	{
+	    hideContents();
+
 		resultList.setItems(searchList);
 
 		searchField.textProperty().addListener((observable, oldVal, newVal) ->  {
@@ -136,6 +150,7 @@ public class Controller implements Initializable
             {
                 textTarget.setText(newVal);
                 textExplain.setText(dictionaryManager.dictionaryLookup(newVal).getWordExplain());
+                showContents();
             }
         });
 	}
@@ -162,6 +177,12 @@ public class Controller implements Initializable
     public void handleRemoveWord(ActionEvent actionEvent)
     {
         String word = resultList.getSelectionModel().getSelectedItem();
+        if (word != null) {
+            openRemoveWordApp(word);
+        }
+    }
+
+    public void openRemoveWordApp(String word) {
         RemoveWordApplication app = new RemoveWordApplication(dictionaryManager, word);
         try
         {
@@ -175,36 +196,46 @@ public class Controller implements Initializable
 
         }
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
-		resultList.setItems(searchList);
+        resultList.setItems(searchList);
 
-		clearContent();
+        hideContents();
     }
 
-    public void clearContent() {
-        this.textExplain.setText("");
-        this.textTarget.setText("");
+    public void hideContents() {
+        textArea.setVisible(false);
+        imgDashboard.setVisible(true);
+        btnEdit.setVisible(false);
+        btnRemove.setVisible(false);
+    }
+
+    public void showContents() {
+        textArea.setVisible(true);
+        imgDashboard.setVisible(false);
+        btnEdit.setVisible(true);
+        btnRemove.setVisible(true);
     }
     
-    public void handleEditWord(ActionEvent actionEvent)
-    {
-        
+    public void handleEditWord(ActionEvent actionEvent) {
         Word word = dictionaryManager.dictionaryLookup(resultList.getSelectionModel().getSelectedItem());
-        if (word != null)
-        {
-            EditWordApplication app = new EditWordApplication(dictionaryManager, word);
-            try
-            {
-                app.run();
-
-                System.out.println("Done-------------------");
-            }
-            catch (Exception e)
-            {
-                System.out.println(e.toString());
-            }
-            searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
-		    resultList.setItems(searchList);
+        if (word != null) {
+            openEditWordApp(word);
         }
+    }
+
+    public void openEditWordApp(Word word) {
+        EditWordApplication app = new EditWordApplication(dictionaryManager, word);
+        try
+        {
+            app.run();
+
+            System.out.println("Done-------------------");
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+        resultList.setItems(searchList);
     }
     //////////////////////////////
 

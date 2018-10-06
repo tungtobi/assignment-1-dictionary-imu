@@ -41,20 +41,7 @@ public class RemoveWordController implements Initializable
         if (wordTarget == null || wordTarget.equals(""))
             return ;
 
-        Word word = dictionaryManager.removeWord(wordTarget);
-
-        if (word == null)
-        {
-            AlertWindow alertWindow = new AlertWindow("Word not found");
-            try 
-            {
-                alertWindow.run();
-            }
-            catch (Exception e)
-            {
-                System.out.println(e.toString());
-            }
-        }
+        dictionaryManager.removeWord(wordTarget);
         
         handleCancelButton(actionEvent);
     }
