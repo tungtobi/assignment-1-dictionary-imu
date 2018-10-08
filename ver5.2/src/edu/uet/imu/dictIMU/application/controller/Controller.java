@@ -87,6 +87,7 @@ public class Controller implements Initializable
             {
                 textTarget.setText(searchText);
                 textExplain.setText(translator.callUrlAndParseResult("en", "vi", searchField.getText()));
+                showContents();
             }
             catch (Exception ex)
             {
