@@ -16,7 +16,6 @@ import java.util.logging.Level;
 import java.io.InputStream;
 import java.io.IOException;
 
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javazoom.jl.decoder.JavaLayerException;
@@ -32,6 +31,7 @@ import edu.uet.imu.dictIMU.application.tools.AddWordApplication;
 import edu.uet.imu.dictIMU.application.tools.RemoveWordApplication;
 import edu.uet.imu.dictIMU.application.tools.EditWordApplication;
 //////////////////////////
+
 
 public class Controller implements Initializable
 {
@@ -72,10 +72,10 @@ public class Controller implements Initializable
 	public void handleSearch(ActionEvent actionEvent)
 	{
 		String searchText =  searchField.getText();
-		searchList = DictionarySearcher.searcherForApplication("", searchText.toLowerCase(), searchList);
+		// searchList = DictionarySearcher.searcherForApplication("", searchText.toLowerCase(), searchList);
         
         
-        if (searchList.size() == 0)
+        //if (searchList.size() == 0)
         {
             // DEBUGListView javafx
             System.out.println(searchList.toString());
@@ -150,7 +150,7 @@ public class Controller implements Initializable
             if (newVal != null)
             {
                 textTarget.setText(newVal);
-                textExplain.setText(dictionaryManager.dictionaryLookup(newVal).getWordExplain());
+                textExplain.setText(dictionaryManager.lookup(newVal).getWordExplain());
                 showContents();
             }
         });
@@ -196,10 +196,18 @@ public class Controller implements Initializable
             System.out.println(e.toString());
 
         }
+
+        int oldSize = searchList.size();
+
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
         resultList.setItems(searchList);
 
-        hideContents();
+
+
+        int newSize = searchList.size();
+
+        if (newSize != oldSize)
+            hideContents();
     }
 
     public void hideContents() {
@@ -217,7 +225,7 @@ public class Controller implements Initializable
     }
     
     public void handleEditWord(ActionEvent actionEvent) {
-        Word word = dictionaryManager.dictionaryLookup(resultList.getSelectionModel().getSelectedItem());
+        Word word = dictionaryManager.lookup(resultList.getSelectionModel().getSelectedItem());
         if (word != null) {
             openEditWordApp(word);
         }

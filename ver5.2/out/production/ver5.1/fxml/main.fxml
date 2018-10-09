@@ -30,7 +30,7 @@
 <?import javafx.collections.FXCollections?>
 <?import javafx.geometry.Insets?>
 
-<BorderPane id="container" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: F6F6F6;" stylesheets="/css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uet.imu.dictIMU.application.controller.Controller">
+<BorderPane id="container" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: F6F6F6;" stylesheets="/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uet.imu.dictIMU.application.controller.Controller">
     <left>
         <VBox prefHeight="458.0" prefWidth="300.0" BorderPane.alignment="CENTER">
             <children>
@@ -65,14 +65,9 @@
         </VBox>
     </left>
    <top>
-      <AnchorPane prefHeight="132.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="132.0" prefWidth="800.0" styleClass="toolbar" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="810.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-               <image>
-                  <Image url="@../images/toolbar.png" />
-               </image>
-            </ImageView>
-              <ToolBar opacity="0.7" prefHeight="132.0" prefWidth="800.0" style="-fx-background-color: #9900CC;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+              <ToolBar prefHeight="132.0" prefWidth="800.0" style="-fx-background-color: #9900CC; -fx-opacity: 0.55;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
             <HBox AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="46.0">
                <children>
                   <Button fx:id="btnEdit" mnemonicParsing="false" onAction="#handleEditWord" styleClass="button-primary" text="Sửa">

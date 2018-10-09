@@ -1,8 +1,5 @@
 package edu.uet.imu.dictIMU.common;
 
-import edu.uet.imu.dictIMU.common.Dictionary;
-import edu.uet.imu.dictIMU.common.Word;
-
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.io.File;
@@ -35,7 +32,7 @@ public class DictionaryManagement
         
     public Word removeWord(String str)
     {
-        Word word = dictionaryLookup(str);
+        Word word = lookup(str);
         if (word != null) 
         {
             dictionary.removeWord(word);
@@ -101,7 +98,7 @@ public class DictionaryManagement
         }
     }
 
-    public void dictionaryExportToFile(String path)
+    public void exportToFile(String path)
     {
         ArrayList<Word> dict = dictionary.getWords();
         PrintWriter printWriter = null;
@@ -133,7 +130,13 @@ public class DictionaryManagement
 
     }
 
-    public Word dictionaryLookup(String searchWord)
+
+    /**
+     * Search a word
+     * @param searchWord word needed to search.
+     * @return word
+     */
+    public Word lookup(String searchWord)
     {
         if (searchWord == null || searchWord == "")
             return null;

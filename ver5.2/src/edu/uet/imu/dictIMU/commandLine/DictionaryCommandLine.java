@@ -99,7 +99,7 @@ public class DictionaryCommandLine
                     dictionaryManager.removeFromCommandline();
                     break;
                 case '6':
-                    dictionaryManager.dictionaryExportToFile("resources/data/out.txt");
+                    dictionaryManager.exportToFile("resources/data/out.txt");
 			}
 			System.out.println("=========================");
 		}

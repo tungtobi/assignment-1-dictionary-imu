@@ -48,7 +48,7 @@ public class Translator {
         JSONArray jsonArray2 = (JSONArray) jsonArray.get(0);
         JSONArray jsonArray3 = (JSONArray) jsonArray2.get(0);
         
-        // return jsonArray.toString();
+        System.out.println(jsonArray);
         return jsonArray3.get(0).toString();
     }      
 }
