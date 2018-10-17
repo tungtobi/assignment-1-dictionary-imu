@@ -1,0 +1,10 @@
+Windows:
+    - Compile:
+        javac -d out -cp org.json.jar;src src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/controller/*.java
+    - Run:
+        java -cp org.json.jar;out edu.uet.imu.dictIMU.Main
+Unix:
+    - Compile:
+        javac -d out -cp org.json.jar:src src/edu/uet/imu/dictIMU/*.java src/edu/uet/imu/dictIMU/controller/*.java
+    - Run:
+        java -cp org.json.jar:out edu.uet.imu.dictIMU.Main

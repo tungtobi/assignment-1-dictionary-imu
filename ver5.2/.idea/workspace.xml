@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/../ver2/out/edu/uet/imu/dictIMU/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver2/out/edu/uet/imu/dictIMU/DictionaryCommandLine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ver3/out/edu/uet/imu/dictIMU/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver3/out/edu/uet/imu/dictIMU/DictionaryCommandLine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ver5.1/resources/edu/uet/imu/dictIMU/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/resources/edu/uet/imu/dictIMU/DictionaryCommandLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -223,47 +224,7 @@
               <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,14 +334,14 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="1" sideWeight="0.50065106" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50065106" side_tool="true" visible="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" x="20" y="571" width="1500" height="272" id="Run" order="6" type="FLOATING" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22135417" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22135417" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49414062" weight="0.32965517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />

@@ -4,7 +4,6 @@ accented	có dấu ?
 accenting	nhấn mạnh mẽ
 accentless	vô tình
 accentor	erw
-accentors	accentors
 accents	dấu trọng âm
 accentuable	có giá trị
 accentual	có giọng

@@ -1,7 +1,7 @@
 accensor	accensor
 accent	giọng
 accented	có dấu ?
-accenting	nhấn mạnh
+accenting	nhấn mạnh mẽ
 accentless	vô tình
 accentor	erw
 accentors	accentors
