@@ -1,0 +1,149 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+    -fx-background-size: stretch;
+}
+
+.toolbar {
+    -fx-background-image: url("../images/toolbar.png");
+    -fx-background-size: stretch;
+}
+
+.text .label {
+    -fx-text-fill: #666666;
+}
+
+.h1 {
+    -fx-font-size: 28px;
+}
+
+.h2 {
+    -fx-font-size: 18px;
+}
+
+.p {
+    -fx-font-size: 16px;
+}
+
+.topPane {
+    -fx-background-color: teal;
+    -fx-padding: 10px;
+}
+
+.topPane Label {
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+#title {
+    -fx-font-size: 25px;
+}
+
+.midPane {
+    -fx-padding: 10px 5px;
+    /*-fx-opacity: 0.7;*/
+}
+
+.sidebar {
+    -fx-min-width:    300px;
+    -fx-pref-width:   300px;
+    -fx-max-width:    300px;
+    -fx-border-width: 5px;
+    -fx-border-color: transparent #E8E8E8 transparent transparent;
+    -fx-fit-to-width: true;
+    -fx-vgap: 10;
+    -fx-hgap: 10;
+}
+
+.searchPane {
+    -fx-padding: 0px;
+    -fx-hgap: 5;
+}
+
+.svgContainer {
+    -fx-min-width:   18px;
+    -fx-pref-width:  18px;
+    -fx-max-width:   18px;
+    -fx-max-height:  18px;
+    -fx-pref-height: 18px;
+    -fx-min-height:  18px;
+    -fx-alignment:   right;
+}
+
+.svg {
+    -fx-fill: gray;
+    -fx-scale-x: 0.045;
+    -fx-scale-y: 0.045;
+    -fx-alignment: right;
+    -fx-background-color: none;
+}
+
+.svgButton {
+	-fx-border-width: 0;
+	-fx-background-color: none;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #9900CC;
+    -fx-opacity: .3;
+    -fx-text-fill: white;
+}
+
+#searchField {
+    -fx-min-width: 248px;
+    -fx-max-width: 248px;
+}
+
+.button {
+    -fx-background-color: #F6F6F6;
+    -fx-border-width: 1px;
+    -fx-border-color: #cfcfcf;
+    -fx-font-size: 16px;
+    -fx-text-fill: #666666;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-opacity: .8;
+    -fx-min-height: 42px;
+
+}
+
+.button:hover {
+    -fx-opacity: 1;
+}
+
+.button-primary {
+    -fx-background-color: #9900CC;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+}
+
+
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #cfcfcf;
+
+}
+
+.text-field:focused {
+    -fx-border-color: #9900CC;
+}
+
+.text-explain {
+    -fx-border-width: 2px 0px 0px 0px;
+    -fx-border-opacity: 0.7;
+    -fx-border-color: #9900CC;
+}
+
+#resultList {
+    -fx-text-color: gray;
+    -fx-font-size: 16px;
+}
+
+#speakerButton {
+    -fx-min-height: 22px;
+    -fx-background-color: #9900CC;
+    -fx-shape: "M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z";
+}

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DictIMU:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DictIMU_jar</output-path>
+    <root id="archive" name="dictIMU.jar">
+      <element id="module-output" name="dictIMU" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jl1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/org.json.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
