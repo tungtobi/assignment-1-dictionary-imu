@@ -52,8 +52,9 @@ public class EditWordController implements Initializable
             dictionaryManager.removeWord(oldWord.getWordTarget());
             dictionaryManager.addWord(wordTarget, wordExplain, pronunciation);
             dictionaryManager.exportToFile("resources/data/out_dict.txt");
-            openAlertWindow("Chỉnh sửa thành công!");
+
             handleCancelButton(actionEvent);
+            openAlertWindow("Chỉnh sửa thành công!");
         }
     }
 

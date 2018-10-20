@@ -31,13 +31,11 @@ public class AddWordController
 
     private DictionaryManagement dictionaryManager;
 
-    public AddWordController(DictionaryManagement dictionaryManager)
-    {
+    public AddWordController(DictionaryManagement dictionaryManager) {
         this.dictionaryManager = dictionaryManager;
     }
 
-    public void handleApplyButton(ActionEvent actionEvent)
-    {
+    public void handleApplyButton(ActionEvent actionEvent) {
         String wordTarget = targetTextField.getText();
         String wordExplain = explainTextField.getText();
         String pronunciation = pronunciationField.getText();
@@ -48,12 +46,11 @@ public class AddWordController
         } else {
             dictionaryManager.addWord(wordTarget, wordExplain, pronunciation);
             dictionaryManager.exportToFile("resources/data/out_dict.txt");
-            openAlertWindow("Thêm từ thành công");
             handleCancelButton(actionEvent);
+
+            openAlertWindow("Thêm từ thành công");
         }
     }
-
-
 
     public void handleCancelButton(ActionEvent actionEvent) {
         Stage stage = (Stage) cancelButton.getScene().getWindow();

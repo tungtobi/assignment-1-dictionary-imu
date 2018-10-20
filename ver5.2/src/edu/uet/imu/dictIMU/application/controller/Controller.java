@@ -19,7 +19,13 @@ import java.util.logging.Level;
 import java.io.InputStream;
 import java.io.IOException;
 
+import javafx.scene.effect.Blend;
+import javafx.scene.effect.BlendMode;
+import javafx.scene.effect.BoxBlur;
+import javafx.scene.effect.ColorInput;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javazoom.jl.decoder.JavaLayerException;
 
@@ -58,6 +64,9 @@ public class Controller implements Initializable
 
     @FXML
     private Text textTarget;
+
+    @FXML
+    private BorderPane mainPane;
 
 	private FilteredList<String> searchList;
 
@@ -193,9 +202,8 @@ public class Controller implements Initializable
                 WordX word = dictionaryManager.lookup(newVal);
 
                 textTarget.setText(word.getWordTarget());
-                //System.out.println(newVal);
-                textExplain.setText(word.getPronunciation() + "\n" + word.getWordExplain());
-                //searchFromWeb(newVal);
+                //textExplain.setText(word.getPronunciation() + "\n" + word.getWordExplain());
+                textExplain.setText(Helper.WordXToTextFX(word));
                 showContents();
             }
         });
@@ -204,17 +212,19 @@ public class Controller implements Initializable
     // Check Edit Word Application
     public void handleAddWord(ActionEvent actionEvent)
     {
+        mainPane.setEffect(new BoxBlur(3, 3, 5));
+
         AddWordApplication app = new AddWordApplication(dictionaryManager);
-        try
-        {
+        try {
             app.run();
 
             System.out.println("Done-------------------");
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e.toString());
         }
+
+        mainPane.setEffect(null);
+
         refeshSearchList();
 		resultList.setItems(searchList);
     }
@@ -222,23 +232,22 @@ public class Controller implements Initializable
     public void handleRemoveWord(ActionEvent actionEvent)
     {
         String word = resultList.getSelectionModel().getSelectedItem();
+
         if (word != null) {
+            mainPane.setEffect(new BoxBlur(3, 3, 5));
             openRemoveWordApp(word);
         }
+
+        mainPane.setEffect(null);
     }
 
     public void openRemoveWordApp(String word) {
         RemoveWordApplication app = new RemoveWordApplication(dictionaryManager, word);
-        try
-        {
+        try {
             app.run();
-
             System.out.println("Done-------------------");
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e.toString());
-
         }
 
         int oldSize = searchList.size();
@@ -269,20 +278,18 @@ public class Controller implements Initializable
     public void handleEditWord(ActionEvent actionEvent) {
         WordX word = dictionaryManager.lookup(resultList.getSelectionModel().getSelectedItem());
         if (word != null) {
+            mainPane.setEffect(new BoxBlur(3, 3, 5));
             openEditWordApp(word);
+            mainPane.setEffect(null);
         }
     }
 
     public void openEditWordApp(WordX word) {
         EditWordApplication app = new EditWordApplication(dictionaryManager, word);
-        try
-        {
+        try {
             app.run();
-
             System.out.println("Done-------------------");
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e.toString());
         }
 
@@ -291,6 +298,4 @@ public class Controller implements Initializable
 
         setResultListListener();
     }
-    //////////////////////////////
-
 }

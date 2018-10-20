@@ -26,8 +26,7 @@ public class DictionaryManagement
 		return this.dictionary;
 	}
     
-    public void addWord(String wordTarget, String wordExplain, String pronunciation)
-    {
+    public void addWord(String wordTarget, String wordExplain, String pronunciation) {
         WordX word = new WordX(wordTarget, wordExplain, pronunciation, null);
         dictionary.addWord(word);
     }
@@ -36,8 +35,7 @@ public class DictionaryManagement
 	    dictionary.addWord(word);
     }
 
-    public WordX removeWord(String str)
-    {
+    public WordX removeWord(String str) {
         WordX word = lookup(str);
         if (word != null) 
         {
@@ -48,48 +46,18 @@ public class DictionaryManagement
 
     }
 
-    public void insertFromFile(String path) 
-    {
-        // try 
-        // {
-            InputStream in = getClass().getResourceAsStream(path);
-            Scanner scanner = new Scanner(in, "UTF-8");
-            System.out.println("Get datas from " + path);
-            while (scanner.hasNext())
-            {
-                String[] line = scanner.nextLine().split("\t", 2);
-                if (line.length < 2)
-                {
-                    System.out.println("Error file's format!");
-                    break;
-                }
-
-                addWord(line[0], line[2], line[1]);
-            }
-        // }
-        // catch (FileNotFoundException e)
-        // {
-        //      System.out.println("File not found");
-        // }
-    }
-
-    public void readFromFile(String path)
-    {
+    public void readFromFile(String path) {
         try {
             InputStream in = new FileInputStream(path);
             Scanner scanner = new Scanner(in, "UTF-8");
             System.out.println("Get datas from " + path);
-            while (scanner.hasNext())
-            {
+            while (scanner.hasNext()) {
                 String[] line = scanner.nextLine().split("\t", 3);
-                if (line.length < 2)
-                {
+                if (line.length < 2) {
                     System.out.println("Error file's format!");
                     break;
                 }
 
-                WordX word = new WordX(line[0], line[2], line[1], null);
-                System.out.println(word.getWordTarget() + " | " + word.getPronunciation() + " | " + word.getWordExplain());
                 addWord(line[0], line[2], line[1]);
             }
         } catch (FileNotFoundException e) {
@@ -125,12 +93,12 @@ public class DictionaryManagement
         PrintWriter printWriter = null;
         String path = "resources/data/out_dict.txt";
 
-        try
-        {
+        try {
             Writer fileWriter = new FileWriter(path, true);
             printWriter = new PrintWriter(fileWriter);
 
-            printWriter.write(word.getWordTarget() + "\t/" + word.getPronunciation() + "/\t" + word.getWordExplain().toLowerCase());
+            printWriter.write(word.getWordTarget() +
+                    "\t" + word.getPronunciation() + "\t" + word.getWordExplain().toLowerCase());
             printWriter.write(System.getProperty("line.separator"));
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
@@ -147,8 +115,7 @@ public class DictionaryManagement
      * @param searchWord word needed to search.
      * @return word
      */
-    public WordX lookup(String searchWord)
-    {
+    public WordX lookup(String searchWord) {
         if (searchWord == null || searchWord == "")
             return null;
         

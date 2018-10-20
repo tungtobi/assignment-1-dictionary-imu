@@ -30,7 +30,7 @@
 <?import javafx.collections.FXCollections?>
 <?import javafx.geometry.Insets?>
 
-<BorderPane id="container" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: F6F6F6;" stylesheets="/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uet.imu.dictIMU.application.controller.Controller">
+<BorderPane id="container" fx:id="mainPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: F6F6F6;" stylesheets="/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uet.imu.dictIMU.application.controller.Controller">
     <left>
         <VBox prefHeight="458.0" prefWidth="300.0" BorderPane.alignment="CENTER">
             <children>

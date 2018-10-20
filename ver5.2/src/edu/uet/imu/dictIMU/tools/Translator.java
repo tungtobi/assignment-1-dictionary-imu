@@ -31,36 +31,19 @@ public class Translator
 
     public void callUrl(String langFrom, String langTo, String word) throws Exception
     {
-        if (langFrom.equals(""))
-        {
+        if (langFrom.equals("")) {
             langFrom = "auto";
         }
-        // String url = "https://translate.googleapis.com/translate_a/single?"+
-        //             "client=gtx&"+
-        //             "sl=" + langFrom + 
-        //             "&tl=" + langTo + 
-        //             "&dt=t&q=" + URLEncoder.encode(word, "UTF-8");    
 
         String url = "https://translate.googleapis.com/translate_a/single?" +
                 "client=gtx&" +
-                "sl=" + langFrom +
-                "&tl=" + langTo +
-                "&hl=en" +
-                "&dt=at" +
-                "&dt=bd" +
-                "&dt=ex" +
-                "&dt=ld" +
-                "&dt=md" +
-                "&dt=qca" +
-                "&dt=rw" +
-                "&dt=rm" +             // [[[null,null,null,"bo͝ok"]],null,"en",null,null,null,1,null,[["en"],null,[1],["en"]]]
-                "&dt=ss" +
-                "&dt=t" +            // [[["sách","book",null,null,1]],null,"en"]
-
+                "sl=" + langFrom + "&tl=" + langTo +
+                "&hl=en" + "&dt=at" + "&dt=bd" + "&dt=ex" + "&dt=ld" +
+                "&dt=md" + "&dt=qca" + "&dt=rw" +
+                "&dt=rm" + // [[[null,null,null,"bo͝ok"]],null,"en",null,null,null,1,null,[["en"],null,[1],["en"]]]
+                "&dt=ss" + "&dt=t" +            // [[["sách","book",null,null,1]],null,"en"]
                 "&ie=UTF-8&oe=UTF-8" +
                 "&q=" + URLEncoder.encode(word, "UTF-8");
-        // rm t ss
-
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -79,8 +62,6 @@ public class Translator
         json = new JSONArray(response.toString());
 
         System.out.println(json);
-
-
     }
 
     public String simpleTranslate() throws Exception
@@ -99,7 +80,7 @@ public class Translator
         if (jsonArray0.length() > 1)
         {
             JSONArray jsonArray01 = (JSONArray) jsonArray0.get(1);
-            pron = jsonArray01.get(jsonArray01.length() - 1).toString();
+            pron = "/" + jsonArray01.get(jsonArray01.length() - 1).toString() + "/";
         }
         return pron;
     }

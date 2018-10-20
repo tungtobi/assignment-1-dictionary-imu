@@ -43,9 +43,8 @@ public class RemoveWordController implements Initializable {
         dictionaryManager.removeWord(wordTarget);
         dictionaryManager.exportToFile("resources/data/out_dict.txt");
 
-        openAlertWindow("Xóa thành công!");
-
         handleCancelButton(actionEvent);
+        openAlertWindow("Xóa thành công!");
     }
 
     public void handleCancelButton(ActionEvent actionEvent) {

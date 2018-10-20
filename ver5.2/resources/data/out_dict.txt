@@ -27,6 +27,7 @@ bag	/bag/	(n) túi
 bamboozle	/bamˈbo͞ozəl/	(v) lừa gạt
 barrier	/ˈbarēər/	(n) rào chắn
 beacon	/ˈbēkən/	(n) đèn hiệu
+beautiful	/ˈbyo͞otəfəl/	(adj) xinh đẹp, lộng lẫy
 believe	/biˈlēv/	(v) tin
 better	/'betə[r]/	(adj) tốt hơn, hơn
 betterment	/'betəmənt/	(n) sự cải thiện
@@ -106,14 +107,53 @@ exchange	/iksˈCHānj/	(v) trao đổi, giao dịch
 excuse	/ik'skju:s/	(v) tha thứ
 explain	/ikˈsplān/	(v) giải thích
 expound	/ikˈspound/	(v) giải thích
-fancy	ˈfansē	ưa thích
+fancy	/ˈfansē/	(adj) ưa thích
+father	/ˈfäT͟Hər/	(n) cha
+feign	/fān/	(v) giả vờ
+field	/fēld/	(n) cánh đồng
+fine	/fēn,fīn,ˈfēnā/	(adj) khỏe
+firm	/fərm/	(v) chắc chắn
+flea	/flē/	(n) bọ chét
+fluid	/ˈflo͞oid/	(n) chất lỏng
+force	/fôrs/	(n) lực lượng
+freeze	/frēz/	(v) đông cứng
+fuck	/fək/	(v) đụ
+fume	/fyo͞om/	(n) khói
+game	/gām/	(n) trò chơi
+garret	/ˈgarit/	(n) garret
+gay	/gā/	(n) người đồng tính
+genome	/ˈjēˌnōm/	(n) bộ gen
+ghost	/gōst/	(n) ma
+giraffe	/jəˈraf/	(n) con hươu cao cổ
+gown	/goun/	(n) áo choàng
+grand	/grand/	(adj) lớn
+gravel	/ˈgravəl/	(n) sỏi
+great	/grāt/	(adj) tuyệt quá
+group	/gro͞op/	(n) nhóm
+grow	/grō/	(v) lớn lên
+grown	/ɡrəu/	(adj) mới lớn, gia tăng, phát triển
+gun	/gən/	(n) súng
+gust	/gəst/	(n) ham muốn
+handsome	/ˈhansəm/	(adj) đẹp trai
+have	/hav/	(v) có
 hello	/heˈlō,həˈlō/	(v) xin chào
+help	/help/	(v) cứu giúp
 hi	/hī/	(n) chào
+hike	/hīk/	(v) đi lang thang
+hold	/hōld/	(v) giữ
+hole	/hōl/	(n) lỗ
+hour	/ou(ə)r/	(n) giờ
+hunch	/hənCH/	(v) linh cảm
+hysteria	/-ˈsti(ə)rēə,hiˈsterēə/	(adj) cuồng loạn
+idea	/ai'diə/	(n) quan niệm, ý tưởng, tư tưởng, ý kiến
 key	/kē/	(n) chìa khóa
+laptop	/ˈlapˌtäp/	(n) máy tính xách tay
+make	/māk/	(v) chế tạo, làm
 map	/map/	(n) bản đồ
 melancholia	/,melən'kəʊliə/	(n) bệnh u sầu
 melancholiac	/melən'kouliæk/	(adj) mắc bệnh u sầu, (n) người mắc bệnh u sầu
 melancholy	/'melənkəli/	(n) sự u sầu, (adj) u sầu, đau buồn
+mother	/ˈməT͟Hər/	(n) mẹ
 peasant	/'peznt/	(n) nông dân, bần nông, người cục mịch
 peasantry	/'pezntri/	(n) nông dân, giai cấp nông dân
 pease	/pi:z/	(n) đậu hà lan, (v) trêu trọc
@@ -123,37 +163,8 @@ sidle	/'saidl/	(v) đi len lén, đi rụt rè
 sidy	/sidy/	(adj) làm bộ, lên mặt, huênh hoang
 top	/täp/	(n) hàng đầu
 turgid	/'tɜ:dʒid/	(adj) khoa trương, cương, sưng
-fancy	/ˈfansē/	(v) ưa thích
-feign	/fān/	(v) giả vờ
-field	/fēld/	(n) cánh đồng
-firm	/fərm/	(v) chắc chắn
-flea	/flē/	(n) bọ chét
-fluid	/ˈflo͞oid/	(n) chất lỏng
-force	/fôrs/	(n) lực lượng
-freeze	/frēz/	(v) đông cứng
-fume	/fyo͞om/	(n) khói
-fuck	/fək/	(v) đụ
-fine	/fēn,fīn,ˈfēnā/	(adj) khỏe
-garret	/ˈgarit/	(n) garret
-genome	/ˈjēˌnōm/	(n) bộ gen
-giraffe	/jəˈraf/	(n) con hươu cao cổ
-gown	/goun/	(n) áo choàng
-gravel	/ˈgravəl/	(n) sỏi
-group	/gro͞op/	(n) nhóm
-grown	//	(adj) mới lớn
-grow	/grō/	(v) lớn lên
-gust	/gəst/	(n) ham muốn
-gun	/gən/	(n) súng
-ghost	/gōst/	(n) ma
-gay	/gā/	(n) người đồng tính
-game	/gām/	(n) trò chơi
-great	/grāt/	(adj) tuyệt quá
-handsome	/ˈhansəm/	(adj) đẹp trai
-have	/hav/	(v) có
-help	/help/	(v) cứu giúp
-hike	/hīk/	(v) đi lang thang
-hole	/hōl/	(n) lỗ
-hold	/hōld/	(v) giữ
-hour	/ou(ə)r/	(n) giờ
-hunch	/hənCH/	(v) linh cảm
-hysteria	/-ˈsti(ə)rēə,hiˈsterēə/	(adj) cuồng loạn
+what	/(h)wät,(h)wət/	cái gì?
+banana	/bəˈnanə/	(n) trái chuối
+hell	/hel/	(n) địa ngục
+note	/nōt/	(n) chú thích, chú thích, (v) viết ghi chú, tập viết
+sample	/ˈsampəl/	(n) mẫu vật

@@ -12,15 +12,15 @@ public class Helper
     {
         String ret = "";
         if (!word.getPronunciation().equals(""))
-            ret = ret + "/" + word.getPronunciation() + "/" + "\n";
+            ret = ret + word.getPronunciation() + "\n";
 
         ret = ret + word.getWordExplain() + "\n\n";
 
         Map typeGroup = word.getTypeGroup();
 
-        if (typeGroup.size() > 0)
+        if (typeGroup != null && typeGroup.size() > 0)
         {
-             ret = ret + "Definitions of " + word.getWordTarget() + "\n\n";
+             ret = ret + "Những định nghĩa của " + word.getWordTarget() + "\n\n";
 
 
             for (Object o : typeGroup.entrySet())
