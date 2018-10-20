@@ -35,12 +35,12 @@ beverage	/'bevəridʒ/	(n) đồ uống
 bevy	/'bevi/	(n) đám, bầy
 bewail	/bi'weil/	(v) khóc lóc, than vãn
 beware	/bi'weə[r]/	(v) thận trọng, coi chừng
-bicarb	/,bai'ka:b/	(n)	bicarbonat natri
+bicarb	/,bai'ka:b/	(n) bicarbonat natri
 bicarbonate	/,bai'kɑ:bənət/	(n) cacbonat axit
 bicentenary	/,baisen'ti:nəri/	(n) kỷ niệm hai trăm năm, lễ kỷ niệm hai trăm năm
 bicentennial	/,baisen'teniəl/	(adj) 200 năm mới xảy ra một lần, (n) kỷ niệm 200 năm
 bicephalous	/bai'sefələs/	(adj) có hai đầu
-biotic	/bīˈätik/	(n)sinh vật học
+biotic	/bīˈätik/	(n) sinh vật học
 blink	/bliNGk/	(v) chớp mắt
 boil	/boil/	(v) sôi lên
 book	/bo͝ok/	(n) sách
@@ -106,6 +106,7 @@ exchange	/iksˈCHānj/	(v) trao đổi, giao dịch
 excuse	/ik'skju:s/	(v) tha thứ
 explain	/ikˈsplān/	(v) giải thích
 expound	/ikˈspound/	(v) giải thích
+fancy	ˈfansē	ưa thích
 hello	/heˈlō,həˈlō/	(v) xin chào
 hi	/hī/	(n) chào
 key	/kē/	(n) chìa khóa
@@ -121,6 +122,38 @@ siding	/'saidiŋ/	(n) đường tàu tránh
 sidle	/'saidl/	(v) đi len lén, đi rụt rè
 sidy	/sidy/	(adj) làm bộ, lên mặt, huênh hoang
 top	/täp/	(n) hàng đầu
-tung	/tùngtobi/	lâm
-tungtobi	/tungtobi/	lâm
 turgid	/'tɜ:dʒid/	(adj) khoa trương, cương, sưng
+fancy	/ˈfansē/	(v) ưa thích
+feign	/fān/	(v) giả vờ
+field	/fēld/	(n) cánh đồng
+firm	/fərm/	(v) chắc chắn
+flea	/flē/	(n) bọ chét
+fluid	/ˈflo͞oid/	(n) chất lỏng
+force	/fôrs/	(n) lực lượng
+freeze	/frēz/	(v) đông cứng
+fume	/fyo͞om/	(n) khói
+fuck	/fək/	(v) đụ
+fine	/fēn,fīn,ˈfēnā/	(adj) khỏe
+garret	/ˈgarit/	(n) garret
+genome	/ˈjēˌnōm/	(n) bộ gen
+giraffe	/jəˈraf/	(n) con hươu cao cổ
+gown	/goun/	(n) áo choàng
+gravel	/ˈgravəl/	(n) sỏi
+group	/gro͞op/	(n) nhóm
+grown	//	(adj) mới lớn
+grow	/grō/	(v) lớn lên
+gust	/gəst/	(n) ham muốn
+gun	/gən/	(n) súng
+ghost	/gōst/	(n) ma
+gay	/gā/	(n) người đồng tính
+game	/gām/	(n) trò chơi
+great	/grāt/	(adj) tuyệt quá
+handsome	/ˈhansəm/	(adj) đẹp trai
+have	/hav/	(v) có
+help	/help/	(v) cứu giúp
+hike	/hīk/	(v) đi lang thang
+hole	/hōl/	(n) lỗ
+hold	/hōld/	(v) giữ
+hour	/ou(ə)r/	(n) giờ
+hunch	/hənCH/	(v) linh cảm
+hysteria	/-ˈsti(ə)rēə,hiˈsterēə/	(adj) cuồng loạn

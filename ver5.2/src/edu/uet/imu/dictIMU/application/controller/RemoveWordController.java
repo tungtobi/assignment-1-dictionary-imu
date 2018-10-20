@@ -16,8 +16,9 @@ import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.application.tools.AlertWindow;
 
-public class RemoveWordController implements Initializable
-{
+import static edu.uet.imu.dictIMU.application.tools.AlertWindow.openAlertWindow;
+
+public class RemoveWordController implements Initializable {
     @FXML
     private Label textTitle;
 
@@ -28,14 +29,12 @@ public class RemoveWordController implements Initializable
     private String word;
     private Controller controller;
 
-    public RemoveWordController(DictionaryManagement dictionaryManager, String word)
-    {
+    public RemoveWordController(DictionaryManagement dictionaryManager, String word) {
         this.dictionaryManager = dictionaryManager;
         this.word = word;
     }
 
-    public void handleApplyButton(ActionEvent actionEvent)
-    {
+    public void handleApplyButton(ActionEvent actionEvent) {
         String wordTarget = word;
 
         if (wordTarget == null || wordTarget.equals(""))
@@ -44,24 +43,18 @@ public class RemoveWordController implements Initializable
         dictionaryManager.removeWord(wordTarget);
         dictionaryManager.exportToFile("resources/data/out_dict.txt");
 
+        openAlertWindow("Xóa thành công!");
+
         handleCancelButton(actionEvent);
     }
 
-    public void handleCancelButton(ActionEvent actionEvent)
-    {
+    public void handleCancelButton(ActionEvent actionEvent) {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();
-        AlertWindow alertWindow = new AlertWindow("Xóa thành công!");
-        try {
-            alertWindow.run();
-        } catch (Exception e) {
-            System.out.println(e.toString());
-        }
     }
 
     @Override
-    public void initialize(URL url, ResourceBundle resourceBundle)
-    {
+    public void initialize(URL url, ResourceBundle resourceBundle) {
         textTitle.setText("Xóa từ '" + word + "'?");
     }
 }

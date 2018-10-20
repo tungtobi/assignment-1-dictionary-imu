@@ -1,6 +1,5 @@
 package edu.uet.imu.dictIMU.application.controller;
 
-import edu.uet.imu.dictIMU.DictGenerator;
 import edu.uet.imu.dictIMU.application.tools.Helper;
 import edu.uet.imu.dictIMU.common.WordX;
 import javafx.event.ActionEvent;
@@ -106,9 +105,8 @@ public class Controller implements Initializable
 
                 if (!dictionaryManager.isExist(result.getWordTarget())) {
                     dictionaryManager.addWord(result);
-                    dictionaryManager.exportToFile("resources/data/out_dict.txt");
-                    DictGenerator generator = new DictGenerator();
-                    generator.exportToFile(result);
+                    dictionaryManager.appendToFile(result);
+
                     refeshSearchList();
                 }
 

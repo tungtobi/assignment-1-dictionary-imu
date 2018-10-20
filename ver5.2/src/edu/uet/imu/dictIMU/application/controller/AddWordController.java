@@ -13,6 +13,8 @@ import java.util.ResourceBundle;
 import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.application.tools.AlertWindow;
 
+import static edu.uet.imu.dictIMU.application.tools.AlertWindow.openAlertWindow;
+
 public class AddWordController
 {
     @FXML
@@ -42,27 +44,19 @@ public class AddWordController
 
         if (wordTarget == null || wordExplain == null || pronunciation == null ||
                 wordTarget.equals("") || wordExplain.equals("") || pronunciation.equals("")) {
-            AlertWindow alertWindow = new AlertWindow("Không thể thêm từ");
-            try {
-                alertWindow.run();
-            } catch (Exception e) {
-                System.out.println(e.toString());
-            }
+            openAlertWindow("Không thể thêm từ");
         } else {
             dictionaryManager.addWord(wordTarget, wordExplain, pronunciation);
             dictionaryManager.exportToFile("resources/data/out_dict.txt");
+            openAlertWindow("Thêm từ thành công");
             handleCancelButton(actionEvent);
         }
     }
 
+
+
     public void handleCancelButton(ActionEvent actionEvent) {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();
-        AlertWindow alertWindow = new AlertWindow("Thêm từ thành công");
-        try {
-            alertWindow.run();
-        } catch (Exception e) {
-            System.out.println(e.toString());
-        }
     }
 }

@@ -15,6 +15,8 @@ import edu.uet.imu.dictIMU.common.DictionaryManagement;
 import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.application.tools.AlertWindow;
 
+import static edu.uet.imu.dictIMU.application.tools.AlertWindow.openAlertWindow;
+
 public class EditWordController implements Initializable
 {
     @FXML
@@ -45,16 +47,12 @@ public class EditWordController implements Initializable
 
         if (wordTarget == null || wordExplain == null || pronunciation == null ||
                 wordTarget.equals("") || wordExplain.equals("") || pronunciation.equals("")) {
-            AlertWindow alertWindow = new AlertWindow("Chỉnh sửa thất bại!");
-            try {
-                alertWindow.run();
-            } catch (Exception e) {
-                System.out.println(e.toString());
-            }
+            openAlertWindow("Chỉnh sửa thất bại!");
         } else {
             dictionaryManager.removeWord(oldWord.getWordTarget());
             dictionaryManager.addWord(wordTarget, wordExplain, pronunciation);
             dictionaryManager.exportToFile("resources/data/out_dict.txt");
+            openAlertWindow("Chỉnh sửa thành công!");
             handleCancelButton(actionEvent);
         }
     }
@@ -62,12 +60,6 @@ public class EditWordController implements Initializable
     public void handleCancelButton(ActionEvent actionEvent) {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();
-        AlertWindow alertWindow = new AlertWindow("Chỉnh sửa thành công!");
-        try {
-            alertWindow.run();
-        } catch (Exception e) {
-            System.out.println(e.toString());
-        }
     }
 
     @Override

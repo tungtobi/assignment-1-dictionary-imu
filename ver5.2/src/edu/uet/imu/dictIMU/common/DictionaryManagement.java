@@ -119,7 +119,27 @@ public class DictionaryManagement
             if (printWriter != null)
                 printWriter.close();
         }
+    }
 
+    public void appendToFile(WordX word) {
+        PrintWriter printWriter = null;
+        String path = "resources/data/out_dict.txt";
+
+        try
+        {
+            Writer fileWriter = new FileWriter(path, true);
+            printWriter = new PrintWriter(fileWriter);
+
+            printWriter.write(word.getWordTarget() + "\t/" + word.getPronunciation() + "/\t" + word.getWordExplain().toLowerCase());
+            printWriter.write(System.getProperty("line.separator"));
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        } catch(IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (printWriter != null)
+                printWriter.close();
+        }
     }
 
     /**

@@ -28,6 +28,14 @@ public class AlertWindow
         this.message = message;
     }
 
+    public static void openAlertWindow(String dialogue) {
+        AlertWindow alertWindow = new AlertWindow(dialogue);
+        try {
+            alertWindow.run();
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
+    }
 
     public void run() throws Exception
     {
