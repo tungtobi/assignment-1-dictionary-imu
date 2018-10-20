@@ -1,488 +1,124 @@
-accensor	accensor
-accent	giọng
-accented	có dấu ?
-accenting	nhấn mạnh mẽ
-accentless	vô tình
-accentor	erw
-accentors	accentors
-accents	dấu trọng âm
-accentuable	có giá trị
-accentual	có giọng
-accentuality	sự chú ý
-accentually	có giọng
-accentuate	làm nổi bật
-accentuated	nhấn mạnh
-accentuates	accentuates
-accentuating	làm nổi bật
-accentuation	sự nhấn mạnh
-accentuations	sự nhấn mạnh
-accentuator	ahihi
-accentus	accentus
-accept	chấp nhận
-acceptabilities	sự chấp nhận
-acceptability	sự chấp nhận
-acceptable	có thể chấp nhận
-better humorez	tốt hơn
-better-dressed	mặc quần áo tốt hơn
-better-informed	thông báo tốt hơn
-better-knowing	biết rõ hơn
-better-known	nổi tiếng hơn
-better-liked	thích hơn
-better-liking	thích hơn
-better-meant	tốt hơn
-better-natured	tốt hơn
-better-omened	tốt hơn
-better-principled	tốt hơn-nguyên tắc
-better-regulated	điều chỉnh tốt hơn
-better-seasoned	tốt hơn
-better-taught	dạy tốt hơn
-better-witted	tốt hơn
-bettered	tốt hơn
-betterer	tốt hơn
-bettergates	tốt hơn
-bettering	cải thiện
-betterly	tốt hơn
-betterment	cải thiện
-betterments	cải thiện
-bettermost	tốt hơn hết
-betterness	tốt hơn
-betters	betters
-betterton	betterton
-betthel	bê-tên
-betthezel	betthezel
-betthezul	betthezul
-betti	betti
-betties	betties
-betty	betty
-bettye	bettye
-bevellers	bevellers
-bevelling	bevelling
-bevelment	bevelment
-bevels	bevels
-bevenom	beven
-bever	đồ uống
-beverage	đồ uống
-beverages	đồ uống
-beveridge	beveridge
-beverie	beverie
-beverle	đồ uống
-beverlee	beverlee
-beverley	beverley
-beverlie	beverlie
-beverly	beverly
-bevers	beavers
-beverse	hải ly
-bevesseled	bevesseled
-bevesselled	bevesselled
-beveto	bebe
-bevier	bevier
-bevies	bevies
-bevil	bevil
-bevillain	bevillain
-bevilled	bevilled
-bevin	bevin
-bevined	bevined
-bevington	bevington
-bevinsville	bevinsville
-bevis	chứng cớ
-bevoiled	bevoiled
-bevomit	bevomit
-bevomited	bevomited
-bevomiting	bevomiting
-bevomits	bevomits
-bevon	bevon
-bevor	trước
-bevors	bevors
-bevue	bevue
-bevus	bevus
-bevvy	bevvy
-bevy	bevy
-bew	bew
-bewail	bewail
-bewailable	có thể được
-bewailed	bewailed
-bewailer	bewailer
-bewailers	bewailers
-bewailing	bewailing
-bewailingly	bewailingly
-bewailment	bewailment
-bewails	bewails
-bewaitered	bewaitered
-bewake	bewake
-bewall	bewall
-beware	hãy cẩn thận
-bewared	bị thương
-bewares	bewares
-bewary	bewary
-bicapsular	hình ống
-bicarb	thẻ bài
-bicarbide	bicarbide
-bicarbonate	bicarbonate
-bicarbonates	bicacbonat
-bicarbs	bicarbs
-bicarbureted	lưỡng lự
-bicarburetted	- có bicarburetted
-bicarinate	bán
-bicarpellary	lưỡng cực
-bicarpellate	bicarpellate
-bicaudal	bicaudal
-bicaudate	bicaudate
-bicched	tách
-bice	nó sẽ là
-bicellular	xe đạp
-bicentenaries	bicentenaries
-bicentenarnaries	bicentenarnaries
-bicentenary	hai trăm năm
-bicentennial	hai trăm năm
-bicentennially	lưỡng tính
-bicentennials	hai trăm tuổi
-bicentral	bicentral
-bicentric	lưỡng tính
-bicentrically	lưỡng tính
-bicentricity	tính lưỡng tính
-bicep	bicep
-bicephalic	bicephalic
-bicephalous	bicephalous
-biceps	bắp tay
-bicepses	bicepses
-bices	bices
-bicetyl	bicetyl
-bichat	bichat
-biche-la-mar	biche-la-mar
-bichelamar	bichelamar
-bichir	bichir
-bichloride	bichloride
-bichlorides	bichlorides
-bichord	middleman
-bichos	lỗi
-bichromate	bichromate
-bichromated	bichromated
-bichromatic	bichromatic
-bichromatize	bichromatize
-bichrome	bichrome
-bichromic	bichromic
-bichy	bichy
-biciliate	biciliate
-biciliated	làm bẽ mặt
-bicipital	bicipital
-bicipitous	bicipitous
-bicircular	u nang
-bicirrose	bicirrose
-bick	bick
-bick-iron	bánh
-bickart	bickart
-bicker	bicker
-bickered	bẻ cong
-bickerer	người đánh lừa
-bickerers	người bickerers
-bickering	cãi nhau
-bickern	bickern
-bickers	bickers
-bickiron	bickiron
-bickleton	bickleton
-bickmore	bickmore
-bicknell	bicknell
-biclavate	biclavate
-biclinia	biclinia
-biclinium	biclinium
-bicol	bicol
-bicollateral	lưỡng cực
-bicollaterality	lưỡng tính
-bicolligate	bicolligate
-bicolor	bicolor
-bicolored	bicolored
-bicolorous	bicolorous
-bicolors	bicolors
-bicolour	bicolour
-bicoloured	có màu trắng
-bicolourous	bicolourous
-bicolours	bicolours
-bicols	xe đạp
-bicompact	bicompact
-biconcave	hai mặt lồi lõm
-biconcavities	biconcavities
-biconcavity	biconcavity
-biconditional	lưỡng tính
-bicondylar	bicondylar
-bicone	bicone
-biconic	null
-biconical	hai mặt
-biconically	hai mặt
-biconjugate	hai mặt
-biconnected	biconnected
-biconsonantal	biconsonantal
-biconvex	hai mặt lồi
-biconvexities	hai mặt lồi lõm
-biconvexity	hai mặt lồi lõm
-bicorn	bicorn
-bicornate	bicornate
-bicorne	bicorne
-bicorned	có răng cưa
-bicornes	bicornes
-bicornous	lưỡng tính
-bicornuate	lưỡng lự
-bicornuous	lưỡng tính
-bicornute	bicornute
-bicorporal	bi-corporal
-bicorporate	bicorporate
-bicorporeal	bicorporeal
-bicostate	bicostate
-bicrenate	bicrenate
-bicrescentic	lưỡng tính
-bicrofarad	bicrofarad
-bicron	bicron
-bicrons	bicron
-bicrural	lưỡng tính
-bics	bics
-bicuculline	bicuculline
-bicultural	bicultural
-biculturalism	chủ nghĩa văn hóa
-bicursal	bicursal
-bicuspid	bicuspid
-bicuspidal	bicuspidal
-bicuspidate	bicuspidate
-bicuspids	bicuspids
-bicyanide	bestseller
-bicycle	xe đạp
-bicycle-built-for-two	xe đạp-xây dựng-cho-hai
-bicycled	đạp xe
-bicycler	người đi xe đạp
-bicyclers	người đi xe đạp
-bicycles	xe đạp
-bicyclic	lưỡng tính
-bicyclical	theo chu kỳ
-bicycling	đi xe đạp
-bicyclism	người đi xe đạp
-bicyclist	người đi xe đạp
-bicyclists	người đi xe đạp
-bicyclo	bicyclo
-bicycloheptane	bicycloheptan
-bicycular	thuộc về hình cầu
-bicylindrical	bicylindrical
-bid	bid
-bid-a-bid	giá thầu thầu
-bid-ale	đấu thầu
-bida	bida
-bidactyl	bidactyl
-bidactyle	bidactyle
-bidactylous	bidactylous
-bidar	bidar
-bidarka	giá thầu
-bidarkas	bidark
-bidarkee	bidarkee
-bidarkees	đúc
-bidault	bidault
-bidcock	bidcock
-biddability	tính khả thi
-biddable	có giá trị
-biddableness	biddableness
-biddably	biddably
-biddance	biddance
-biddeford	biddeford
-biddelian	biddelian
-bidden	cầu nguyện
-bidder	nhà thầu
-bidders	nhà thầu
-biddery	biddery
-biddick	biddick
-biddie	biddie
-biddies	biddies
-bidding	đấu thầu
-biddings	biddings
-biddle	biddle
-biddulphia	biddulphia
-biddulphiaceae	biddulphiaceae
-biddy	biddy
-biddy-bid	biddy-bid
-biddy-biddy	biddy-biddy
-bide	cách
-by-channel	theo kênh
-by-child	từng đứa trẻ
-by-chop	by-chop
-by-cock	null
-by-common	thông thường
-by-corner	từng góc
-by-day	theo ngày
-bycoket	bycoket
-dwarfed	lùn
-dwarfer	người lùn
-dwarfest	lùn lùn
-dwarfing	lùn
-dwarfish	lùn
-dwarfishly	lúng túng
-dwarfishness	lúng túng
-dwarfism	lùn
-dwarfisms	lùn
-dwarflike	lùn
-dwarfling	lùn lùn
-dwarfness	lùn
-dwarfs	người lùn
-dwarfy	lùn
-dwarves	người lùn
-dwb	dwb
-dweck	dweck
-dweeble	dweeble
-dwell	trú ngụ
-dwelled	trú ngụ
-dweller	người lùn
-dwellers	cư dân
-dwelling	trú ngụ
-dwellings	nhà ở
-dwells	ngự nhà
-dwelt	cư ngụ
-dwi	dwi
-dwight	dwight
-dwim	dwim
-dwindle	làm suy nhược
-dwindled	suy yếu
-dwindlement	suy nhược
-dwindles	dwindles
-dwindling	suy yếu
-dwine	dwine
-dwined	ở lại
-dwines	dwines
-dwining	làm suy yếu
-dwinnell	dwinnell
-dworak	cận thần
-dwyer	dwyer
-dwyka	dwyka
-ear-piercing	xỏ lỗ tai
-ear-rending	xỏ lỗ tai
-ear-rent	cho thuê tai
-ear-ring	bông tai
-ear-splitting	sự chia tách tai
-earners	người có thu nhập
-earnest	nghiêm trang
-earnest-penny	kiếm tiền-penny
-earnestful	nghiêm túc
-earnestly	tha thiết
-earnestness	sự nghiêm túc
-earnestnesses	sự nghiêm túc
-earnests	kiếm tiền
-earnful	kiếm tiền
-earnie	người kiếm tiền
-earning	thu nhập
-earnings	thu nhập
-earns	kiếm được
-earock	earock
-earom	earom
-earp	earp
-earphone	tai nghe
-earphones	tai nghe
-earpick	earpick
-earpiece	ống nghe
-earpieces	tai nghe
-earplug	tai nghe
-earplugs	nút bịt tai
-earreach	tai
-earring	bông tai
-earringed	bông tai
-earrings	hoa tai
-ears	đôi tai
-earscrew	bông tai
-earsh	nhân vật
-earshell	vỏ tai
-earshot	phát lại
-earshots	tai nghe
-earsore	tai nghe
-earsplitting	tách tai
-earspool	tai nghe
-earstone	đá quý
-earstones	earstones
-eartab	eartab
-eartag	khuyên tai
-eartagged	bịt tai
-earth	trái đất
-earth-apple	trái đất táo
-earth-ball	trái đất
-earth-board	trái đất
-earth-born	sanh ra
-earth-bound	trái đất
-earth-boundness	liên kết trái đất
-earth-convulsing	co giật trái đất
-earth-delving	-sự đào đất
-earth-destroying	phá hủy trái đất
-earth-devouring	ăn đất
-earth-din	nửa ngày
-earth-dwelling	đất ở
-earth-eating	ăn trái đất
-earth-engendered	được sinh ra trên trái đất
-earth-fed	ăn đất
-earth-god	trái đất thần
-earth-goddess	nữ thần đất
-earth-homing	trái đất
-eartha	eartha
-earthboard	trái đất
-earthborn	earthborn
-earthbound	trái đất
-earthbred	thuộc về đất
-earthdrake	earthdrake
-earthed	nối đất
-earthen	đất
-earthenhearted	có trái đất
-earthenware	đồ đất nung
-earthenwares	earthenwares
-earthfall	trái đất
-earthfast	trái đất
-earthgall	earthgall
-earthgrubber	người làm đất
-melamines	melamines
-melammdim	melammdim
-melammed	melammed
-melampod	vượt qua
-melampode	vượt qua
-melampodium	melampodium
-melampsora	melampsora
-melampsoraceae	melampsoraceae
-melampus	melampus
-melampyrin	melampyrin
-melampyrite	melampyrite
-melampyritol	melampyritol
-melampyrum	melampyrum
-melan	melan
-melan-	melan-
-melanaemia	melaminea
-melanaemic	melanomic
-melanagogal	melanogogle
-melanagogue	melangougue
-melancholia	u sầu
-melancholiac	melancholiac
-melancholiacs	u sầu
-melancholy	u sầu
-pea-shoot	bắn đậu
-pea-sized	cỡ hạt đậu
-pea-soup	súp đậu
-pea-souper	siêu siêu
-peasantries	nông dân
-peasants	nông dân
-peasantship	nông dân
-peascod	peascod
-peascods	peascods
-pease	pease
-peasecod	peasecod
-peasecods	peasecods
-peaselike	headbands
-peasen	trêu chọc
-peases	trêu chọc
-peaseweep	peaseweep
-peashooter	peashooter
-peason	peason
-peasouper	chụp
-peasy	buồn rầu
-sidi-bel-abb	saidblb
-sidia	sidia
-siding	siding
-sidings	sidings
-sidion	sidion
-sidky	sidky
-sidle	sidle
-sidled	ở bên
-sidler	người đi lang thang
-sidlers	sidlers
-sidles	sidles
-sidling	đi lang thang
-sidlingly	rụt rè
-sidlins	sidlins
-sidman	sidman
-sidnaw	sidnaw
-sidy	rậm rạp
+a	/ā,ə/	(a) một
+absent	/'æbsənt/	(n) vắng mặt
+abstract	/'æbstrækt/	(adj) trừu tượng
+accent	/'æksent/	(n) giọng, trọng âm, dấu trọng âm
+accentor	/æk'sentə/	(n) chim chích
+accentual	/æk'sentjuəl/	(adj) thuộc trọng âm, dựa vào trọng âm
+accentuate	/ək'sent∫ʊeit/	(v) nhấn mạnh, làm nổi bật
+accentuation	/əksent∫ʊ'ei∫n/	(n) sự nhấn mạnh, sự nổi bật
+accept	/ək'sept/	(v) chấp nhận
+acceptability	/ək,septə'biləti/	(n) tính có thể chấp nhận được, tính được hoan nghênh
+acceptable	/ək'septəbl/	(adj) có thể chấp nhận được, được hoan nghênh
+acquaint	/əˈkwānt/	(v) làm quen
+ado	/əˈdo͞o/	(n) ado
+affront	/əˈfrənt/	(v) phản đối
+alas	/əˈlas/	(v) than ôi
+alone	/əˈlōn/	(adj) một mình
+amiablez	/ˈāmēəbəl/	(adj) đáng yêu
+angel	/ˈānjəl/	(n) thiên thần
+angle	/ˈaNGgəl/	(n) góc
+append	/əˈpend/	(v) nối thêm
+archive	/ˈärˌkīv/	(n) lưu trữ
+asbestos	/asˈbestəs,az-/	(n) amiăng
+astrology	/əˈsträləjē/	(n) chiêm tinh học
+august	/ôˈgəst/	(n) tháng tám
+away	/əˈwā/	(adv) xa
+bag	/bag/	(n) túi
+bamboozle	/bamˈbo͞ozəl/	(v) lừa gạt
+barrier	/ˈbarēər/	(n) rào chắn
+beacon	/ˈbēkən/	(n) đèn hiệu
+believe	/biˈlēv/	(v) tin
+better	/'betə[r]/	(adj) tốt hơn, hơn
+betterment	/'betəmənt/	(n) sự cải thiện
+bevel	/'bevl/	(n) cạnh vát, thước nách, (v) gọt vát mép
+beverage	/'bevəridʒ/	(n) đồ uống
+bevy	/'bevi/	(n) đám, bầy
+bewail	/bi'weil/	(v) khóc lóc, than vãn
+beware	/bi'weə[r]/	(v) thận trọng, coi chừng
+bicarb	/,bai'ka:b/	(n)	bicarbonat natri
+bicarbonate	/,bai'kɑ:bənət/	(n) cacbonat axit
+bicentenary	/,baisen'ti:nəri/	(n) kỷ niệm hai trăm năm, lễ kỷ niệm hai trăm năm
+bicentennial	/,baisen'teniəl/	(adj) 200 năm mới xảy ra một lần, (n) kỷ niệm 200 năm
+bicephalous	/bai'sefələs/	(adj) có hai đầu
+biotic	/bīˈätik/	(n)sinh vật học
+blink	/bliNGk/	(v) chớp mắt
+boil	/boil/	(v) sôi lên
+book	/bo͝ok/	(n) sách
+bottom	/ˈbätəm/	(n) đáy
+brave	/brāv/	(adj) can đảm
+broken	/ˈbrōkən/	(adj) bị hỏng
+bugle	/ˈbyo͞ogəl/	(n) kèn
+burst	/bərst/	(v) nổ
+camera	/ˈkam(ə)rə/	(n) máy ảnh
+capitulate	/kəˈpiCHəˌlāt/	(v) đầu hàng
+carrier	/ˈkarēər/	(n) người vận chuyển
+catch	/kaCH,keCH/	(v) bắt lấy
+censor	/ˈsensər/	(v) kiểm duyệt
+change	/CHānj/	(v) thay đổi
+cheep	/CHēp/	(n) tiếng chim kêu
+chloroform	/ˈklôrəˌfôrm/	(v) gây mê
+cinder	/ˈsindər/	(n) chất kết dính
+clatter	/ˈklatər/	(adj) kêu vang
+closure	/ˈklōZHər/	(v) đóng cửa
+cocktail	/ˈkäkˌtāl/	(n) cocktail
+colour	/'kʌlə[r]/	(n) màu
+compass	/ˈkəmpəs/	(n) la bàn
+concise	/kənˈsīs/	(adj) ngắn gọn
+conjugate	/'kɒndʒʊgeit/	(v) liên hợp
+contemplate	/ˈkäntəmˌplāt/	(v) thưởng ngoạn
+cook	/ko͝ok/	(v) nấu ăn
+corridor	/-ˌdôr,ˈkär-,ˈkôrədər/	(n) hành lang
+courier	/ˈko͝orēər,ˈkərēər/	(v) chuyển phát nhanh
+cream	/krēm/	(n) kem
+crop	/kräp/	(n) mùa vụ, (v) cắt
+cudgel	/ˈkəjəl/	(n) dùi cui
+curtsy	/ˈkərtsē/	(v) uốn cong
+dead	/ded/	(adj) đã chết
+deaf	/def/	(adj) điếc
+deal	/dēl/	(n) thỏa thuận
+decree	/diˈkrē/	(n) nghị định
+delate	/diˈlāt/	(adv) mách lẻo, tố cáo
+deliver	/diˈlivər/	(v) giao hàng
+deride	/diˈrīd/	(v) chế nhạo
+deviate	/'di:vieit/	(v) đi chệch
+dig	/dig/	(v) đào
+dirt	/dərt/	(n) bụi bẩn
+dirty	/ˈdərtē/	(adj) dơ bẩn
+discharge	/dis't∫ɑ:dʒ/	(v) phóng điện
+dissociate	/-ˈsōsē-,diˈsōSHēˌāt/	(v) tách rời
+dodge	/däj/	(v) né tránh
+dog	/dôg/	(n) chó
+double	/ˈdəbəl/	(n) gấp đôi
+down	/doun/	(v) xuống
+drab	/drab/	(adj) buồn tẻ
+dream	/drēm/	(v) mơ tưởng
+drowsy	/ˈdrouzē/	(adj) buồn ngủ
+dry	/drī/	(adj) khô
+dumb	/dəm/	(adj) câm
+duty	/ˈd(y)o͞otē/	(n) nhiệm vụ
+edible	/ˈedəbəl/	(adj) ăn được
+electricity	/ilekˈtrisitē,ˌēlek-/	(n) điện lực
+embroider	/emˈbroidər/	(v) thêu
+endear	/enˈdi(ə)r/	(v) kết thúc
+entourage	/ˌänto͞oˈräZH/	(n) đoàn tùy tùng
+ere	/e(ə)r/	(n) ere
+exchange	/iksˈCHānj/	(v) trao đổi, giao dịch
+excuse	/ik'skju:s/	(v) tha thứ
+explain	/ikˈsplān/	(v) giải thích
+expound	/ikˈspound/	(v) giải thích
+hello	/heˈlō,həˈlō/	(v) xin chào
+hi	/hī/	(n) chào
+key	/kē/	(n) chìa khóa
+map	/map/	(n) bản đồ
+melancholia	/,melən'kəʊliə/	(n) bệnh u sầu
+melancholiac	/melən'kouliæk/	(adj) mắc bệnh u sầu, (n) người mắc bệnh u sầu
+melancholy	/'melənkəli/	(n) sự u sầu, (adj) u sầu, đau buồn
+peasant	/'peznt/	(n) nông dân, bần nông, người cục mịch
+peasantry	/'pezntri/	(n) nông dân, giai cấp nông dân
+pease	/pi:z/	(n) đậu hà lan, (v) trêu trọc
+peashooter	/'pi:ʃu:tə/	(n) ống xì thổi hột đậu (đồ chơi trẻ con)
+siding	/'saidiŋ/	(n) đường tàu tránh
+sidle	/'saidl/	(v) đi len lén, đi rụt rè
+sidy	/sidy/	(adj) làm bộ, lên mặt, huênh hoang
+top	/täp/	(n) hàng đầu
+turgid	/'tɜ:dʒid/	(adj) khoa trương, cương, sưng

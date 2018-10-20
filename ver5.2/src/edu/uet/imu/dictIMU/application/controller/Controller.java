@@ -1,8 +1,8 @@
 package edu.uet.imu.dictIMU.application.controller;
 
+import edu.uet.imu.dictIMU.DictGenerator;
 import edu.uet.imu.dictIMU.application.tools.Helper;
 import edu.uet.imu.dictIMU.common.WordX;
-import edu.uet.imu.dictIMU.tools.SQLManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -67,12 +67,15 @@ public class Controller implements Initializable
     public Controller() throws FileNotFoundException
 	{
 		dictionaryManager = new DictionaryManagement();
-        dictionaryManager.insertFromFile("/data/dictionary.txt");
-        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+        //dictionaryManager.insertFromFile("/data/dictionary.txt");
+        dictionaryManager.readFromFile("resources/data/out_dict.txt");
+        refeshSearchList();
 
 	}
 
-
+    public void refeshSearchList() {
+        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+    }
 
 	public void handleSearch(ActionEvent actionEvent)
 	{
@@ -100,6 +103,15 @@ public class Controller implements Initializable
             if (translator.isSuccess())
             {
                 WordX result = translator.fullTranslate();
+
+                if (!dictionaryManager.isExist(result.getWordTarget())) {
+                    dictionaryManager.addWord(result);
+                    dictionaryManager.exportToFile("resources/data/out_dict.txt");
+                    DictGenerator generator = new DictGenerator();
+                    generator.exportToFile(result);
+                    refeshSearchList();
+                }
+
                 textExplain.setText(Helper.WordXToTextFX(result));
             }
             else
@@ -120,8 +132,6 @@ public class Controller implements Initializable
 		    handleSearch(actionEvent);
         });
         searchThread.start();
-
-
 
         // DEBUG
         System.out.println("handleSearchField: OnAction");
@@ -182,9 +192,11 @@ public class Controller implements Initializable
         resultList.getSelectionModel().selectedItemProperty().addListener((observable, oldVal, newVal) -> {
             if (newVal != null)
             {
-                textTarget.setText(newVal);
+                WordX word = dictionaryManager.lookup(newVal);
+
+                textTarget.setText(word.getWordTarget());
                 //System.out.println(newVal);
-                textExplain.setText(dictionaryManager.lookup(newVal).getWordExplain());
+                textExplain.setText(word.getPronunciation() + "\n" + word.getWordExplain());
                 //searchFromWeb(newVal);
                 showContents();
             }
@@ -205,7 +217,7 @@ public class Controller implements Initializable
         {
             System.out.println(e.toString());
         }
-        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+        refeshSearchList();
 		resultList.setItems(searchList);
     }
     
@@ -233,10 +245,8 @@ public class Controller implements Initializable
 
         int oldSize = searchList.size();
 
-        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+        refeshSearchList();
         resultList.setItems(searchList);
-
-
 
         int newSize = searchList.size();
 
@@ -259,13 +269,13 @@ public class Controller implements Initializable
     }
     
     public void handleEditWord(ActionEvent actionEvent) {
-        Word word = dictionaryManager.lookup(resultList.getSelectionModel().getSelectedItem());
+        WordX word = dictionaryManager.lookup(resultList.getSelectionModel().getSelectedItem());
         if (word != null) {
             openEditWordApp(word);
         }
     }
 
-    public void openEditWordApp(Word word) {
+    public void openEditWordApp(WordX word) {
         EditWordApplication app = new EditWordApplication(dictionaryManager, word);
         try
         {
@@ -277,7 +287,8 @@ public class Controller implements Initializable
         {
             System.out.println(e.toString());
         }
-        searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
+
+        refeshSearchList();
         resultList.setItems(searchList);
 
         setResultListListener();

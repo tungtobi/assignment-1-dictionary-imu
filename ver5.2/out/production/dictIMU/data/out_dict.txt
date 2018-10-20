@@ -14,7 +14,7 @@ ado	/əˈdo͞o/	(n) ado
 affront	/əˈfrənt/	(v) phản đối
 alas	/əˈlas/	(v) than ôi
 alone	/əˈlōn/	(adj) một mình
-amiablez	/ˈāmēəbəl/	(adj) đáng yêu
+amiable	/ˈāmēəbəl/	(adj) đáng yêu
 angel	/ˈānjəl/	(n) thiên thần
 angle	/ˈaNGgəl/	(n) góc
 append	/əˈpend/	(v) nối thêm
@@ -121,4 +121,6 @@ siding	/'saidiŋ/	(n) đường tàu tránh
 sidle	/'saidl/	(v) đi len lén, đi rụt rè
 sidy	/sidy/	(adj) làm bộ, lên mặt, huênh hoang
 top	/täp/	(n) hàng đầu
+tung	/tùngtobi/	lâm
+tungtobi	/tungtobi/	lâm
 turgid	/'tɜ:dʒid/	(adj) khoa trương, cương, sưng

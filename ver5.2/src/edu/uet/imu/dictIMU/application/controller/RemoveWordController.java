@@ -42,7 +42,7 @@ public class RemoveWordController implements Initializable
             return ;
 
         dictionaryManager.removeWord(wordTarget);
-        dictionaryManager.exportToFile("resources/data/dictionary.txt");
+        dictionaryManager.exportToFile("resources/data/out_dict.txt");
 
         handleCancelButton(actionEvent);
     }
@@ -51,6 +51,12 @@ public class RemoveWordController implements Initializable
     {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();
+        AlertWindow alertWindow = new AlertWindow("Xóa thành công!");
+        try {
+            alertWindow.run();
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
     }
 
     @Override

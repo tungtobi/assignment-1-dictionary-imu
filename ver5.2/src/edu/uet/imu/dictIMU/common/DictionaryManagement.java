@@ -1,5 +1,6 @@
 package edu.uet.imu.dictIMU.common;
 
+import java.io.FileInputStream;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.io.InputStream;
@@ -25,15 +26,19 @@ public class DictionaryManagement
 		return this.dictionary;
 	}
     
-    public void addWord(String wordTarget, String wordExplain)
+    public void addWord(String wordTarget, String wordExplain, String pronunciation)
     {
-        Word word = new Word(wordTarget, wordExplain);
+        WordX word = new WordX(wordTarget, wordExplain, pronunciation, null);
         dictionary.addWord(word);
     }
-        
-    public Word removeWord(String str)
+
+    public void addWord(WordX word) {
+	    dictionary.addWord(word);
+    }
+
+    public WordX removeWord(String str)
     {
-        Word word = lookup(str);
+        WordX word = lookup(str);
         if (word != null) 
         {
             dictionary.removeWord(word);
@@ -41,37 +46,6 @@ public class DictionaryManagement
 
         return word;
 
-    }
-
-	public void insertFromCommandline()
-	{
-		Scanner scanner = new Scanner(System.in);
-		
-		String eng;
-		String vi;
-
-		System.out.print("- Enter the English word: ");
-        eng = scanner.nextLine();
-        
-        System.out.print("- Enter the explain word: ");
-		vi = scanner.nextLine();
-        addWord(eng, vi); 
-       
-	}
-
-    public void removeFromCommandline()
-    {
-        Scanner scanner = new Scanner(System.in);    
-
-        System.out.print("Enter the English word to remove: ");
-        String str = scanner.nextLine();
-        
-        Word word = removeWord(str); 
-        
-        if (word == null)
-        {
-            System.out.println("Word not found!");
-        }
     }
 
     public void insertFromFile(String path) 
@@ -89,8 +63,8 @@ public class DictionaryManagement
                     System.out.println("Error file's format!");
                     break;
                 }
-                
-                addWord(line[0], line[1]);
+
+                addWord(line[0], line[2], line[1]);
             }
         // }
         // catch (FileNotFoundException e)
@@ -99,50 +73,66 @@ public class DictionaryManagement
         // }
     }
 
+    public void readFromFile(String path)
+    {
+        try {
+            InputStream in = new FileInputStream(path);
+            Scanner scanner = new Scanner(in, "UTF-8");
+            System.out.println("Get datas from " + path);
+            while (scanner.hasNext())
+            {
+                String[] line = scanner.nextLine().split("\t", 3);
+                if (line.length < 2)
+                {
+                    System.out.println("Error file's format!");
+                    break;
+                }
+
+                WordX word = new WordX(line[0], line[2], line[1], null);
+                System.out.println(word.getWordTarget() + " | " + word.getPronunciation() + " | " + word.getWordExplain());
+                addWord(line[0], line[2], line[1]);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        }
+    }
+
     public void exportToFile(String path)
     {
-        ArrayList<Word> dict = dictionary.getWords();
+        ArrayList<WordX> dict = dictionary.getWords();
         PrintWriter printWriter = null;
 
-        try 
-        {
+        try {
             Writer fileWriter = new FileWriter(path, false);
             printWriter = new PrintWriter(fileWriter);
 
-            for (Word word: dict)
+            for (WordX word: dict)
             {
-                printWriter.write(word.getWordTarget() + "\t" + word.getWordExplain());
+                printWriter.write(word.getWordTarget() + "\t" + word.getPronunciation() + "\t" + word.getWordExplain());
                 printWriter.write(System.getProperty("line.separator"));
             }
-        }
-        catch (FileNotFoundException e)
-        {
+        } catch (FileNotFoundException e) {
             System.out.println("File not found");
-        }
-        catch(IOException e)
-        {
+        } catch(IOException e) {
             e.printStackTrace();
-        }
-        finally
-        {
+        } finally {
             if (printWriter != null)
                 printWriter.close();
         }
 
     }
 
-
     /**
      * Search a word
      * @param searchWord word needed to search.
      * @return word
      */
-    public Word lookup(String searchWord)
+    public WordX lookup(String searchWord)
     {
         if (searchWord == null || searchWord == "")
             return null;
         
-        ArrayList<Word> dict = dictionary.getWords();
+        ArrayList<WordX> dict = dictionary.getWords();
         ArrayList<String> index = dictionary.getWordsIndex();
         
         String[] wordList = new String[index.size()];
@@ -154,5 +144,8 @@ public class DictionaryManagement
             return null;
         return dict.get(i);
     }
-}
 
+    public boolean isExist(String wordTarget) {
+        return lookup(wordTarget) != null;
+    }
+}

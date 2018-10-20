@@ -8,16 +8,16 @@ import javafx.collections.ObservableList;
 
 public class Dictionary
 {
-    private ArrayList<Word> words;
+    private ArrayList<WordX> words;
     private ArrayList<String> wordsIndex;
 
     public Dictionary()
     {
-    	words = new ArrayList<Word>();
+    	words = new ArrayList<WordX>();
         wordsIndex = new ArrayList<String>();
     }
 
-    public void addWord(Word word)
+    public void addWord(WordX word)
     {
         if (word == null)
             return ;
@@ -38,7 +38,7 @@ public class Dictionary
         }
     }
 
-    public void removeWord(Word word)
+    public void removeWord(WordX word)
     {
         if (word == null)
             return;
@@ -53,7 +53,7 @@ public class Dictionary
         }
     }
 
-    public ArrayList<Word> getWords()
+    public ArrayList<WordX> getWords()
     {
     	return this.words;
     }

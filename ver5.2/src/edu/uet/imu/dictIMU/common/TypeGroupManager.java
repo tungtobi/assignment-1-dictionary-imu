@@ -39,26 +39,6 @@ public class TypeGroupManager {
         return closeWord;
     }
 
-    /*
-    public static Map<String, Map<String, ArrayList<String>>> getTypeGroup(String typeGroup) throws Exception
-    {
-        Map<String, Map<String, ArrayList<String>>> ret = new HashMap<>();
-        JSONArray jsonArray = new JSONArray(typeGroup);
-
-        if (!jsonArray.isNull(0))
-        {
-            for (int i = 0; i < jsonArray.length(); i++)
-            {
-                String type = getType((JSONArray) jsonArray.get(i));
-                Map<String, ArrayList<String>> closeWord = getCloseWord((JSONArray) jsonArray.get(i));
-                ret.put(type, closeWord);
-            }
-        }
-
-        return ret;
-    }
-    */
-
     public static Map<String, Map<String, ArrayList<String>>> getTypeGroup(JSONArray json) throws Exception
     {
         Map<String, Map<String, ArrayList<String>>> ret = new HashMap<>();

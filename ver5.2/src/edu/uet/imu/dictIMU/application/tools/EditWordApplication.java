@@ -1,5 +1,6 @@
 package edu.uet.imu.dictIMU.application.tools;
 
+import edu.uet.imu.dictIMU.common.WordX;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -16,7 +17,7 @@ import javafx.stage.StageStyle;
 public class EditWordApplication  
 {
     private DictionaryManagement dictionaryManager;
-    private Word oldWord;
+    private WordX oldWord;
 
     public EditWordApplication()
     {
@@ -24,7 +25,7 @@ public class EditWordApplication
         oldWord = null;
     }
 
-    public EditWordApplication(DictionaryManagement dictionaryManager, Word word)
+    public EditWordApplication(DictionaryManagement dictionaryManager, WordX word)
     {
         this.dictionaryManager = dictionaryManager;
         this.oldWord = word;
@@ -35,7 +36,7 @@ public class EditWordApplication
         this.dictionaryManager = dictionaryManager;
     }
 
-    public void setWord(Word word)
+    public void setWord(WordX word)
     {
         this.oldWord = word;
     }

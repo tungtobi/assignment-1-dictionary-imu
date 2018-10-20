@@ -13,7 +13,7 @@
             <Font size="33.0" />
          </font>
          <VBox.margin>
-            <Insets bottom="30.0" top="10.0" />
+            <Insets bottom="20.0" top="10.0" />
          </VBox.margin>
       </Label>
       <TextField fx:id="targetTextField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Nghĩa Tiếng Anh">
@@ -24,15 +24,20 @@
             <Font name="System Italic" size="16.0" />
          </font>
       </TextField>
-      <TextField fx:id="explainTextField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Nghĩa Tiếng Việt">
+      <TextField fx:id="pronunciationField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Cách đọc">
          <VBox.margin>
-            <Insets bottom="10.0" />
+            <Insets bottom="20.0" />
          </VBox.margin>
          <font>
             <Font name="System Italic" size="16.0" />
          </font>
       </TextField>
-      <HBox alignment="CENTER" prefHeight="67.0" prefWidth="300.0">
+      <TextField fx:id="explainTextField" maxWidth="-Infinity" minWidth="200.0" onAction="#handleApplyButton" prefWidth="260.0" promptText="Nghĩa Tiếng Việt">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </TextField>
+      <HBox alignment="CENTER" prefHeight="73.0" prefWidth="300.0">
          <children>
             <Button fx:id="applyButton" maxWidth="-Infinity" minWidth="70.0" mnemonicParsing="false" onAction="#handleApplyButton" prefWidth="120.0" styleClass="button-primary" text="OK" textAlignment="CENTER">
                <HBox.margin>
@@ -46,7 +51,7 @@
             </Button>
          </children>
          <VBox.margin>
-            <Insets bottom="10.0" />
+            <Insets bottom="10.0" top="10.0" />
          </VBox.margin>
       </HBox>
    </children>

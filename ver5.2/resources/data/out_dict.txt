@@ -14,7 +14,7 @@ ado	/əˈdo͞o/	(n) ado
 affront	/əˈfrənt/	(v) phản đối
 alas	/əˈlas/	(v) than ôi
 alone	/əˈlōn/	(adj) một mình
-amiablez	/ˈāmēəbəl/	(adj) đáng yêu
+amiable	/ˈāmēəbəl/	(adj) đáng yêu
 angel	/ˈānjəl/	(n) thiên thần
 angle	/ˈaNGgəl/	(n) góc
 append	/əˈpend/	(v) nối thêm
@@ -35,12 +35,12 @@ beverage	/'bevəridʒ/	(n) đồ uống
 bevy	/'bevi/	(n) đám, bầy
 bewail	/bi'weil/	(v) khóc lóc, than vãn
 beware	/bi'weə[r]/	(v) thận trọng, coi chừng
-bicarb	/,bai'ka:b/	(n)	bicarbonat natri
+bicarb	/,bai'ka:b/	(n) bicarbonat natri
 bicarbonate	/,bai'kɑ:bənət/	(n) cacbonat axit
 bicentenary	/,baisen'ti:nəri/	(n) kỷ niệm hai trăm năm, lễ kỷ niệm hai trăm năm
 bicentennial	/,baisen'teniəl/	(adj) 200 năm mới xảy ra một lần, (n) kỷ niệm 200 năm
 bicephalous	/bai'sefələs/	(adj) có hai đầu
-biotic	/bīˈätik/	(n)sinh vật học
+biotic	/bīˈätik/	(n) sinh vật học
 blink	/bliNGk/	(v) chớp mắt
 boil	/boil/	(v) sôi lên
 book	/bo͝ok/	(n) sách
