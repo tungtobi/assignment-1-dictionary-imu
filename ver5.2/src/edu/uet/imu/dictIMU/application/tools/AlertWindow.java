@@ -47,7 +47,7 @@ public class AlertWindow
 
         Parent root = loader.load();
         Stage stage = new Stage();
-		stage.setTitle("Alert");
+		stage.setTitle("Thông báo!");
 		stage.setScene(new Scene(root, 300, 150));
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setResizable(false);

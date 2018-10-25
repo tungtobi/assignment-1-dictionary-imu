@@ -15,6 +15,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.*;
 
+import edu.uet.imu.dictIMU.common.TypeGroupManager;
 import edu.uet.imu.dictIMU.common.Word;
 import edu.uet.imu.dictIMU.common.WordX;
 import org.json.JSONArray;
@@ -60,8 +61,6 @@ public class Translator
         in.close();
 
         json = new JSONArray(response.toString());
-
-        System.out.println(json);
     }
 
     public String simpleTranslate() throws Exception
@@ -85,53 +84,6 @@ public class Translator
         return pron;
     }
 
-    public String getType(JSONArray jsonArray) throws Exception
-    {
-        String type = "";
-        if (!jsonArray.isNull(0))
-        {
-            type = jsonArray.get(0).toString();
-        }
-        return type;
-    }
-
-    public Map<String, ArrayList<String>> getCloseWord(JSONArray jsonArray) throws Exception
-    {
-        Map<String, ArrayList<String>> closeWord = new HashMap<>();
-        if (jsonArray.length() >= 3)
-        {
-            JSONArray jsonArray2 = (JSONArray) jsonArray.get(2);
-            for (int i = 0; i < jsonArray2.length(); i++)
-            {
-                JSONArray jsonArray2i = (JSONArray) jsonArray2.get(i);
-                String key = jsonArray2i.get(0).toString();
-                JSONArray jsonArray2i1 = (JSONArray) jsonArray2i.get(1);
-                ArrayList<String> values = new ArrayList<>();
-                for (int j = 0; j < jsonArray2i1.length(); j++)
-                    values.add(jsonArray2i1.get(j).toString());
-                closeWord.put(key, values);
-            }
-        }
-
-        return closeWord;
-    }
-
-    public Map<String, Map<String, ArrayList<String>>> getTypeGroup() throws Exception
-    {
-        Map<String, Map<String, ArrayList<String>>> ret = new HashMap<>();
-        if (!json.isNull(1))
-        {
-            JSONArray jsonArray = (JSONArray) json.get(1);
-            for (int i = 0; i < jsonArray.length(); i++)
-            {
-                String type = getType((JSONArray) jsonArray.get(i));
-                Map<String, ArrayList<String>> closeWord = getCloseWord((JSONArray) jsonArray.get(i));
-                ret.put(type, closeWord);
-            }
-        }
-
-        return ret;
-    }
 
     public String getTarget() throws Exception
     {
@@ -159,15 +111,22 @@ public class Translator
 
     }
 
+    public JSONArray getJson() {
+        return json;
+    }
+
+    public void setJson(JSONArray json) {
+        this.json = json;
+    }
+
     public WordX fullTranslate() throws Exception
     {
-
         String target = getTarget();
         String explain = getExplain();
 
         String pron = getPron();
 
-        Map<String, Map<String, ArrayList<String>>> closeWordGroup = getTypeGroup();
+        Map<String, Map<String, ArrayList<String>>> closeWordGroup = TypeGroupManager.getTypeGroup((JSONArray) json.get(1));
 
         return new WordX(target, explain, pron, closeWordGroup);
     }

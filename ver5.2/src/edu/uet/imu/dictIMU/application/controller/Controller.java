@@ -2,6 +2,7 @@ package edu.uet.imu.dictIMU.application.controller;
 
 import edu.uet.imu.dictIMU.application.tools.Helper;
 import edu.uet.imu.dictIMU.common.WordX;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -39,6 +40,7 @@ import edu.uet.imu.dictIMU.tools.TextToSpeechGoogle;
 import edu.uet.imu.dictIMU.application.tools.AddWordApplication;
 import edu.uet.imu.dictIMU.application.tools.RemoveWordApplication;
 import edu.uet.imu.dictIMU.application.tools.EditWordApplication;
+import org.json.JSONArray;
 //////////////////////////
 
 
@@ -76,7 +78,7 @@ public class Controller implements Initializable
 	{
 		dictionaryManager = new DictionaryManagement();
         //dictionaryManager.insertFromFile("/data/dictionary.txt");
-        dictionaryManager.readFromFile("resources/data/out_dict.txt");
+        dictionaryManager.readFromFile("out_dict.txt");
         refeshSearchList();
 
 	}
@@ -140,6 +142,11 @@ public class Controller implements Initializable
         });
         searchThread.start();
 
+//        Platform.runLater(() -> {
+//                handleSearch(actionEvent);
+//            }
+//        );
+
         // DEBUG
         System.out.println("handleSearchField: OnAction");
 	}
@@ -157,6 +164,11 @@ public class Controller implements Initializable
             playTextToSpeechAudio(text, targetLang);
         });
         playAudioThread.start();
+
+//        Platform.runLater(() -> {
+//                playTextToSpeechAudio(text, targetLang);
+//            }
+//        );
     }
 
     public void playTextToSpeechAudio(String text, String targetLang) {

@@ -21,13 +21,14 @@ public class DictionaryCommandLine
 
 	public static void showAllWords(ArrayList<Word> words)
 	{
-		System.out.printf("No    |English           |Vietnamese    %n");
+		System.out.printf("No    |English           |Phát âm                |Tiếng Việt %n");
 		
 		int length = words.size();
+		System.out.println(length);
 
 		for (int i = 0; i < length; i++)
 		{
-			System.out.printf("%-6d|%-18s|%s%n", i + 1, words.get(i).getWordTarget(), words.get(i).getWordExplain());
+			System.out.printf("%-6d|%-18s%-24s|%s%n", i + 1, words.get(i).getWordTarget(), words.get(i).getPronunciation(), words.get(i).getWordExplain());
 		}
 	}
 
@@ -75,7 +76,7 @@ public class DictionaryCommandLine
 		  	switch (c)
 		  	{
 		  		case '1':
-					dictionaryManager.insertFromFile("resources/data/dictionary.txt");
+					dictionaryManager.insertFromFile("out_dict_cmd.txt");
 		  			break;
 		 		case '2':
 					showAllWords(dictionaryManager.getDictionary().getWords());
@@ -93,18 +94,16 @@ public class DictionaryCommandLine
                     dictionaryManager.removeFromCommandline();
                     break;
                 case '5':
-                    dictionaryManager.dictionaryExportToFile("out/data/out.txt");
+                    dictionaryManager.dictionaryExportToFile("out_dict_cmd.txt");
+                    break;
 			}
-			System.out.println("=========================");
+			for (int i = 0; i < 2; i++) {
+				System.out.println();
+			}
+
 		}
 		while (c != '0');
 
     }
 
-
-	public void runCommandline()
-	{
-		DictionaryCommandLine dictionary = new DictionaryCommandLine();
-		dictionary.dictionaryAdvenced();
-	}
 }

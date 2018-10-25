@@ -4,11 +4,17 @@ public class Word implements Comparable<Word>
 {
     private String wordTarget;
     private String wordExplain;
+    private String pronunciation;
 
     public Word(String wordTarget, String wordExplain)
     {
     	this.wordTarget  = wordTarget;
     	this.wordExplain = wordExplain;
+    }
+
+    public Word(String wordTarget, String wordExplain, String pronunciation) {
+        this(wordTarget, wordExplain);
+        this.pronunciation = pronunciation;
     }
 
     public Word() {}
@@ -31,6 +37,14 @@ public class Word implements Comparable<Word>
     public void setWordExplain(String wordExplain)
     {
     	this.wordExplain = wordExplain;
+    }
+
+    public String getPronunciation() {
+        return pronunciation;
+    }
+
+    public void setPronunciation(String pronunciation) {
+        this.pronunciation = pronunciation;
     }
 
     @Override

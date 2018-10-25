@@ -17,14 +17,17 @@ alone	/əˈlōn/	(adj) một mình
 amiable	/ˈāmēəbəl/	(adj) đáng yêu
 angel	/ˈānjəl/	(n) thiên thần
 angle	/ˈaNGgəl/	(n) góc
+anybody	/-ˌbədē,ˈenēˌbädē/	bất cứ ai
 append	/əˈpend/	(v) nối thêm
 archive	/ˈärˌkīv/	(n) lưu trữ
+as	/as,az/	như
 asbestos	/asˈbestəs,az-/	(n) amiăng
 astrology	/əˈsträləjē/	(n) chiêm tinh học
 august	/ôˈgəst/	(n) tháng tám
 away	/əˈwā/	(adv) xa
 bag	/bag/	(n) túi
 bamboozle	/bamˈbo͞ozəl/	(v) lừa gạt
+banana	/bəˈnanə/	(n) trái chuối
 barrier	/ˈbarēər/	(n) rào chắn
 beacon	/ˈbēkən/	(n) đèn hiệu
 beautiful	/ˈbyo͞otəfəl/	(adj) xinh đẹp, lộng lẫy
@@ -57,6 +60,7 @@ catch	/kaCH,keCH/	(v) bắt lấy
 censor	/ˈsensər/	(v) kiểm duyệt
 change	/CHānj/	(v) thay đổi
 cheep	/CHēp/	(n) tiếng chim kêu
+cheer	/CHi(ə)r/	vui lên
 chloroform	/ˈklôrəˌfôrm/	(v) gây mê
 cinder	/ˈsindər/	(n) chất kết dính
 clatter	/ˈklatər/	(adj) kêu vang
@@ -70,6 +74,7 @@ contemplate	/ˈkäntəmˌplāt/	(v) thưởng ngoạn
 cook	/ko͝ok/	(v) nấu ăn
 corridor	/-ˌdôr,ˈkär-,ˈkôrədər/	(n) hành lang
 courier	/ˈko͝orēər,ˈkərēər/	(v) chuyển phát nhanh
+crazy	/ˈkrāzē/	(adj) điên khùng
 cream	/krēm/	(n) kem
 crop	/kräp/	(n) mùa vụ, (v) cắt
 cudgel	/ˈkəjəl/	(n) dùi cui
@@ -82,6 +87,7 @@ delate	/diˈlāt/	(adv) mách lẻo, tố cáo
 deliver	/diˈlivər/	(v) giao hàng
 deride	/diˈrīd/	(v) chế nhạo
 deviate	/'di:vieit/	(v) đi chệch
+dictionary	/ˈdikSHəˌnerē/	(n) từ điển, cuốn từ điển
 dig	/dig/	(v) đào
 dirt	/dərt/	(n) bụi bẩn
 dirty	/ˈdərtē/	(adj) dơ bẩn
@@ -108,11 +114,13 @@ excuse	/ik'skju:s/	(v) tha thứ
 explain	/ikˈsplān/	(v) giải thích
 expound	/ikˈspound/	(v) giải thích
 fancy	/ˈfansē/	(adj) ưa thích
+fat	/fat/	(adj) mập mạp, béo tốt
 father	/ˈfäT͟Hər/	(n) cha
 feign	/fān/	(v) giả vờ
 field	/fēld/	(n) cánh đồng
 fine	/fēn,fīn,ˈfēnā/	(adj) khỏe
 firm	/fərm/	(v) chắc chắn
+fix	/fiks/	sửa chữa
 flea	/flē/	(n) bọ chét
 fluid	/ˈflo͞oid/	(n) chất lỏng
 force	/fôrs/	(n) lực lượng
@@ -125,6 +133,7 @@ gay	/gā/	(n) người đồng tính
 genome	/ˈjēˌnōm/	(n) bộ gen
 ghost	/gōst/	(n) ma
 giraffe	/jəˈraf/	(n) con hươu cao cổ
+go	/gō/	đi
 gown	/goun/	(n) áo choàng
 grand	/grand/	(adj) lớn
 gravel	/ˈgravəl/	(n) sỏi
@@ -136,6 +145,7 @@ gun	/gən/	(n) súng
 gust	/gəst/	(n) ham muốn
 handsome	/ˈhansəm/	(adj) đẹp trai
 have	/hav/	(v) có
+hell	/hel/	(n) địa ngục
 hello	/heˈlō,həˈlō/	(v) xin chào
 help	/help/	(v) cứu giúp
 hi	/hī/	(n) chào
@@ -143,28 +153,40 @@ hike	/hīk/	(v) đi lang thang
 hold	/hōld/	(v) giữ
 hole	/hōl/	(n) lỗ
 hour	/ou(ə)r/	(n) giờ
+how	/hou/	làm sao?
 hunch	/hənCH/	(v) linh cảm
 hysteria	/-ˈsti(ə)rēə,hiˈsterēə/	(adj) cuồng loạn
 idea	/ai'diə/	(n) quan niệm, ý tưởng, tư tưởng, ý kiến
 key	/kē/	(n) chìa khóa
 laptop	/ˈlapˌtäp/	(n) máy tính xách tay
+laugh	/laf/	(v) cười, phấn khích
+madness	/ˈmadnəs/	(adj) điên cuồng
 make	/māk/	(v) chế tạo, làm
 map	/map/	(n) bản đồ
 melancholia	/,melən'kəʊliə/	(n) bệnh u sầu
 melancholiac	/melən'kouliæk/	(adj) mắc bệnh u sầu, (n) người mắc bệnh u sầu
 melancholy	/'melənkəli/	(n) sự u sầu, (adj) u sầu, đau buồn
 mother	/ˈməT͟Hər/	(n) mẹ
+note	/nōt/	(n) chú thích, chú thích, (v) viết ghi chú, tập viết
 peasant	/'peznt/	(n) nông dân, bần nông, người cục mịch
 peasantry	/'pezntri/	(n) nông dân, giai cấp nông dân
 pease	/pi:z/	(n) đậu hà lan, (v) trêu trọc
 peashooter	/'pi:ʃu:tə/	(n) ống xì thổi hột đậu (đồ chơi trẻ con)
+please	/plēz/	(v) xin vui lòng, làm ơn
+sad	/sad/	(adj) buồn bã
+sample	/ˈsampəl/	(n) mẫu vật
+shop	/SHäp/	cửa tiệm
+sick	/sik/	(adj) đau ốm, bị ốm
 siding	/'saidiŋ/	(n) đường tàu tránh
 sidle	/'saidl/	(v) đi len lén, đi rụt rè
 sidy	/sidy/	(adj) làm bộ, lên mặt, huênh hoang
+simple	/ˈsimpəl/	(adj) đơn giản
+slap	/slap/	tát
+soup	/so͞op/	súp
 top	/täp/	(n) hàng đầu
 turgid	/'tɜ:dʒid/	(adj) khoa trương, cương, sưng
 what	/(h)wät,(h)wət/	cái gì?
-banana	/bəˈnanə/	(n) trái chuối
-hell	/hel/	(n) địa ngục
-note	/nōt/	(n) chú thích, chú thích, (v) viết ghi chú, tập viết
-sample	/ˈsampəl/	(n) mẫu vật
+hungry	/ˈhəNGgrē/	đói bụng
+lovely	/ˈləvlē/	đáng yêu
+case	/kās/	trường hợp
+test	/test/	kiểm tra

@@ -57,7 +57,7 @@ public class RemoveWordApplication
 
         Parent root = loader.load();
         Stage stage = new Stage();
-		stage.setTitle("Remove word");
+		stage.setTitle("Xóa từ");
 		stage.setScene(new Scene(root, 300, 160));
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setResizable(false);

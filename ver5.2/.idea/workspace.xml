@@ -7,23 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb51b521-dd35-43c7-81b3-c33c650537ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DictIMU_jar.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ver5.1/.idea/artifacts/ver5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ver5.1/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryCommandLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionaryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionarySearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/DictionarySearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/TextToSpeechGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/TextToSpeechGoogle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Translator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Translator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/application/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/application/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/common/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/common/DictionaryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/common/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/common/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/DictionarySearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/DictionarySearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/Translator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/out/production/ver5.1/edu/uet/imu/dictIMU/tools/Translator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/application/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/application/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/common/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ver5.1/src/edu/uet/imu/dictIMU/common/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictIMU.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dictIMU.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/data/dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/data/dict.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dictIMU/data/out_dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/data/out_dict.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/AddWordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/AddWordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/DictionaryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/DictionaryApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/EditWordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/EditWordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/RemoveWordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/controller/RemoveWordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/AlertWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/AlertWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/EditWordApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/EditWordApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/common/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/common/DictionaryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/common/TypeGroupManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/common/TypeGroupManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/tools/Translator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/edu/uet/imu/dictIMU/tools/Translator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dictIMU/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dictIMU/fxml/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/out_dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/out_dict.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AddWordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AddWordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/dict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/out_dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/EditWordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/EditWordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/RemoveWordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/RemoveWordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,29 +64,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DictionaryManagement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DictionaryManagement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddWordController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AddWordController.java">
+      <file leaf-file-name="TypeGroupManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+            <state relative-caret-position="884">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AlertController.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="284">
+              <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#refeshSearchList#0;class#Controller#0" />
+                <element signature="method#handleSearch#0;class#Controller#0" />
+                <element signature="method#initialize#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextToSpeechGoogle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -66,36 +109,35 @@
       <file leaf-file-name="AlertWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="561">
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
+      <file leaf-file-name="EditWordApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Controller#0;class#Controller#0" />
-                <element signature="method#refeshSearchList#0;class#Controller#0" />
-                <element signature="method#handleSearch#0;class#Controller#0" />
-                <element signature="method#handleSearchField#0;class#Controller#0" />
-                <element signature="method#handleTextToSpeed#0;class#Controller#0" />
-                <element signature="method#playTextToSpeechAudio#0;class#Controller#0" />
-                <element signature="method#initialize#0;class#Controller#0" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java">
+      <file leaf-file-name="RemoveWordApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="782">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DictionaryApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -112,26 +154,8 @@
       <file leaf-file-name="EditWordController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/EditWordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Translator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveWordController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/RemoveWordController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -162,6 +186,9 @@
       <find>getObservableWordsIndexList</find>
       <find>pronun</find>
       <find>textTitle</find>
+      <find>getTypeGroup</find>
+      <find>getType</find>
+      <find>thread</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroup.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/ScriptRunner.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DBConnect.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/SQLManager.java" />
@@ -178,28 +204,31 @@
         <option value="$PROJECT_DIR$/out/production/dictIMU/data/anhviet109K.txt" />
         <option value="$PROJECT_DIR$/resources/data/dictionary.txt" />
         <option value="$PROJECT_DIR$/out/production/dictIMU/data/dictionary.txt" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/DictGenerator.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AlertController.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/RemoveWordController.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/EditWordController.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AddWordController.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AddWordApplication.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java" />
-        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroup.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java" />
         <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java" />
+        <option value="$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -210,8 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,14 +294,6 @@
               <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DictIMU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ver5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dictIMU" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,6 +311,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -408,8 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -419,23 +439,23 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" x="2" y="494" width="1518" height="324" id="Run" order="6" type="FLOATING" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" x="2" y="505" width="1518" height="324" id="Run" order="6" type="FLOATING" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49932885" weight="0.32905984" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24798928" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49414062" visible="true" weight="0.328125" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49934897" weight="0.39914772" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49934897" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49414062" weight="0.32905984" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
     </layout>
   </component>
@@ -451,14 +471,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DictIMU.mdj" />
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/DictionarySearcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -538,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/remove.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -580,23 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="method#searcherForCommandline#0;class#DictionarySearcher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -604,10 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,43 +604,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/commandLine/DictionaryCommandLine.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/SQLManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/fxml/EditWordApplication.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/WordX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/DictGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/AlertController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -678,10 +630,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroup.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/WordX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3468#3469#0" expanded="true" />
+            <element signature="e#3495#3496#0" expanded="true" />
+            <element signature="e#3538#3539#0" expanded="true" />
+            <element signature="e#3570#3571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/EditWordController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        <state relative-caret-position="629">
+          <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/TypeGroupManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -692,41 +687,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/Translator.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/EditWordApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="646">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/RemoveWordApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="method#refeshSearchList#0;class#Controller#0" />
-            <element signature="method#handleSearch#0;class#Controller#0" />
-            <element signature="method#handleSearchField#0;class#Controller#0" />
-            <element signature="method#handleTextToSpeed#0;class#Controller#0" />
-            <element signature="method#playTextToSpeechAudio#0;class#Controller#0" />
-            <element signature="method#initialize#0;class#Controller#0" />
-          </folding>
+        <state relative-caret-position="782">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/DictionaryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="204">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/tools/AlertWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/common/DictionaryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/tools/TextToSpeechGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uet/imu/dictIMU/application/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#refeshSearchList#0;class#Controller#0" />
+            <element signature="method#handleSearch#0;class#Controller#0" />
+            <element signature="method#initialize#0;class#Controller#0" />
+          </folding>
         </state>
       </provider>
     </entry>

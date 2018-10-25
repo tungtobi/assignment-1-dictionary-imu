@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ver5.1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ver5_1_jar</output-path>
+    <root id="archive" name="ver5.1.jar">
+      <element id="module-output" name="ver5.1" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jl1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/org.json.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/resources/data/out_dict.txt" />
+    </root>
+  </artifact>
+</component>

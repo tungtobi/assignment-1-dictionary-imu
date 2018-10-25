@@ -1,3 +1,27 @@
+accent	giọng
+accented	có dấu
+accenting	nhấn mạnh
+accentless	vô tình
+accentor	accentor
+accentors	accentors
+accents	dấu trọng âm
+accentuable	có giá trị
+accentual	có giọng
+accentuality	sự chú ý
+accentually	có giọng
+accentuate	làm nổi bật
+accentuated	nhấn mạnh
+accentuates	accentuates
+accentuating	làm nổi bật
+accentuation	sự nhấn mạnh
+accentuations	sự nhấn mạnh
+accentuator	accentuator
+accentus	accentus
+accept	Chấp nhận
+acceptability	sự chấp nhận
+acceptabilities	sự chấp nhận
+acceptable	có thể chấp nhận
+accensor	accensor
 melamines	melamines
 melammdim	melammdim
 melammed	melammed

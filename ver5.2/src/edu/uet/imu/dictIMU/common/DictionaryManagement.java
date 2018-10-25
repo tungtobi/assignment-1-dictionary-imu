@@ -98,7 +98,7 @@ public class DictionaryManagement
             printWriter = new PrintWriter(fileWriter);
 
             printWriter.write(word.getWordTarget() +
-                    "\t" + word.getPronunciation() + "\t" + word.getWordExplain().toLowerCase());
+                    "\t" + word.getPronunciation() + "\t" + word.getWordExplain().toLowerCase() );
             printWriter.write(System.getProperty("line.separator"));
         } catch (FileNotFoundException e) {
             System.out.println("File not found");

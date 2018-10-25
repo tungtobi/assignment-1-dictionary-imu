@@ -17,7 +17,7 @@ public class DictionaryApplication extends Application
 
 		Font.loadFont(getClass().getResource("/fonts/EBGaramond-Regular.ttf").toExternalForm(), 14);
 		Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
-		primaryStage.setTitle("Dictionary");
+		primaryStage.setTitle("Từ điển IMU");
 		primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.setResizable(false);
 		primaryStage.show();

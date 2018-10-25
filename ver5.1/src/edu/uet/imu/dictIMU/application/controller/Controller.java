@@ -45,7 +45,7 @@ public class Controller implements Initializable
     public Controller() throws FileNotFoundException
 	{
 		dictionaryManager = new DictionaryManagement();
-        dictionaryManager.insertFromFile("resources/data/dictionary.txt");
+        dictionaryManager.insertFromFile("resources/data/out_dict.txt");
         searchList = new FilteredList<>(dictionaryManager.getDictionary().getObservableWordsIndexList(), e -> true);
 	}
 

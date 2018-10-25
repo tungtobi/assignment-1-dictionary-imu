@@ -1,5 +1,6 @@
 package edu.uet.imu.dictIMU.common;
 
+import com.mysql.cj.xdevapi.JsonArray;
 import org.json.JSONArray;
 
 import java.util.ArrayList;
@@ -39,12 +40,12 @@ public class TypeGroupManager {
         return closeWord;
     }
 
-    public static Map<String, Map<String, ArrayList<String>>> getTypeGroup(JSONArray json) throws Exception
+    public static Map<String, Map<String, ArrayList<String>>> getTypeGroup(JSONArray jsonArray) throws Exception
     {
         Map<String, Map<String, ArrayList<String>>> ret = new HashMap<>();
-        if (!json.isNull(1))
+        if (jsonArray != null)
         {
-            JSONArray jsonArray = (JSONArray) json.get(1);
+            //JSONArray jsonArray = (JSONArray) json.get(1);
             for (int i = 0; i < jsonArray.length(); i++)
             {
                 String type = getType((JSONArray) jsonArray.get(i));
@@ -55,4 +56,5 @@ public class TypeGroupManager {
 
         return ret;
     }
+
 }

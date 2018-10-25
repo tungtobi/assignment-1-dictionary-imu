@@ -3,6 +3,8 @@ package edu.uet.imu.dictIMU.common;
 import edu.uet.imu.dictIMU.common.Dictionary;
 import edu.uet.imu.dictIMU.common.Word;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.io.File;
@@ -66,30 +68,23 @@ public class DictionaryManagement
         }
     }
 
-    public void insertFromFile(String path) 
+    public void insertFromFile(String path)
     {
-        try 
-        {
-            Scanner scanner = new Scanner(new File(path));
-
+        try {
+            InputStream in = new FileInputStream(path);
+            Scanner scanner = new Scanner(in, "UTF-8");
             System.out.println("Get datas from " + path);
-            while (scanner.hasNext())
-            {
-                String[] line = scanner.nextLine().split("\t", 2);
-                if (line.length < 2)
-                {
+            while (scanner.hasNext()) {
+                String[] line = scanner.nextLine().split("\t", 3);
+                if (line.length < 2) {
                     System.out.println("Error file's format!");
                     break;
                 }
 
-                Word word = new Word(line[0], line[1]);
-                dictionary.addWord(word);
+                dictionary.addWord(new Word(line[0], line[2], line[1]));
             }
-            dictionary.sortList();
-        }
-        catch (FileNotFoundException e)
-        {
-             System.out.println("File not found");
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
         }
     }
 
@@ -100,7 +95,7 @@ public class DictionaryManagement
 
         try 
         {
-            Writer fileWriter = new FileWriter(path, true);
+            Writer fileWriter = new FileWriter(path, false);
             printWriter = new PrintWriter(fileWriter);
 
             for (Word word: dict)

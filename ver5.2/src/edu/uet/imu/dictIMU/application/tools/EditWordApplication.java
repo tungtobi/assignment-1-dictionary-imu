@@ -51,7 +51,7 @@ public class EditWordApplication
 
         Parent root = loader.load();
         Stage stage = new Stage();
-        stage.setTitle("Edit word");
+        stage.setTitle("Chỉnh sửa từ");
 		stage.setScene(new Scene(root, 300, 300));
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setResizable(false);
